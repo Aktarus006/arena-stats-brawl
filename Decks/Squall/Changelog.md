@@ -24,14 +24,53 @@ The list went through extensive cuts and additions before the match log began. I
 Five of the first 20 game reports mentioned missed land development (Games 9, 13, 16, 18, 20), with Games 9, 13 and 18 strongly associated with losses. Ketramose had also felt underwhelming in actual play.
 
 ### Early result
-Games 21–27 reported **no natural mana screw**. Game 27 featured opposing Strip Mine recursion and is treated as active mana denial rather than a natural land-count failure.
+Games 21–30 reported no natural missed-land-drop game, though Game 28 exposed a separate white-source/color-quality issue.
 
-## Future changes
+## After Game 40 — V2 interaction refactor
 
-Do not alter multiple slots at once during a measured test block unless the metagame requires an urgent response. Record each change here with:
+### Archived version
+- [[Versions/V1 - Games 31-40]]
 
-- card out
-- card in
-- game number/date
-- reason
-- hypothesis being tested
+### OUT
+- Caustic Bronco
+- Dark Confidant
+- Enduring Innocence
+- Moonshadow
+- Nethergoyf
+- Phelia, Exuberant Shepherd
+
+### IN
+- Erode
+- Farewell
+- Path to Exile
+- Reprieve
+- Seam Rip
+- Sheoldred's Edict
+
+### Reason
+The first 40 games showed that several synergy/value creatures were producing too little impact in real games:
+
+- **Enduring Innocence** had not produced meaningful value.
+- **Caustic Bronco** had never meaningfully used saddle.
+- **Moonshadow** had reached only modest combat stats and did not interact.
+- **Nethergoyf** functioned mostly as a body rather than disruption/value.
+- **Dark Confidant** had contributed to life-pressure problems and even a recorded self-lethal game.
+- **Phelia** was replaced directly by **Erode** to increase immediate interaction.
+
+Meanwhile, losses repeatedly involved insufficient ability to stop opposing engines, large threats, persistent noncreature permanents, or developed boards. V2 therefore shifts six slots from conditional value/threats into efficient interaction, tempo, and a hard reset.
+
+### V2 hypothesis
+**Every card should be strong before Squall; Squall should make strong interaction reusable rather than be the only reason a card is playable.**
+
+Games 41+ should be treated as the V2 test sample.
+
+## Versioning policy
+
+For every major deck revision:
+
+1. Archive the exact outgoing list under `Versions/`.
+2. Update `Decklist.md` to the new current list.
+3. Record all OUT/IN changes here with the game-number boundary and reason.
+4. Tag subsequent match notes with the active version when practical.
+
+This preserves both Git history and human-readable deck-version history for later A/B analysis.
