@@ -1,6 +1,6 @@
 # Squall — Match Log
 
-> Historical reconstruction from the testing conversation. Details are intentionally limited to what was actually reported. Result count after Game 28: **14–14**.
+> Historical reconstruction from the testing conversation. Details are intentionally limited to what was actually reported. Result count after Game 29: **14–15**.
 
 | # | Result | Opponent | Key observations |
 |---:|:---:|---|---|
@@ -32,10 +32,11 @@
 | 26 | W | Etali | T2 **Drannith Magistrate** locked commander deployment. T3 **Recruiter of the Guard → Skyclave Apparition**; T4 Apparition exiled Ruby Medallion. Opponent conceded. |
 | 27 | L | Grist | Heavy recursion via **Chthonian Nightmare**, recurring enchantment destruction and Icetill Explorer + Strip Mine. Squall saw both board wipes and Skyclave. Attempted Reanimate → Kutzil's Flanker for graveyard exile, but opponent used Endurance. Vampiric Tutor found Boggart Trawler, but opponent followed with Green Sun's Zenith → Primeval Titan + Field of the Dead. |
 | 28 | L | Atraxa, Grand Unifier | Kept three lands (**Urborg, Swamp, Ancient Tomb**) plus Dark Ritual but never accessed white mana. Early **Barrowgoyf + Sheoldred** kept pace while opponent developed mana rocks; opposing Strip Mine destroyed Ancient Tomb. **Portable Hole** was stranded in hand without white mana and could have attacked the rocks. Atraxa was eventually exiled, but **Toxic Deluge for 5** reset the board and **Icetill Explorer + Strip Mine recursion** took over. Classified as **color screw / white-source failure**, not a missed land-drop game. |
+| 29 | L | Raph and Mickey | **Disruptor Flute + Drannith Magistrate** successfully disrupted the commander plan and Squall developed a strong board. Opponent reset it with **Blasphemous Act** and eventually overwhelmed the deck through superior mana and repeated huge threats. Squall answered three creatures with power >8, but the fourth large threat was too much. Indicates that the matchup can exhaust finite answers if Raph/Mickey reaches its high-mana stage despite early commander disruption. |
 
 ## Checkpoints
 
 - Games 1–20: **11–9**.
 - Reported mana-development problems occurred in Games 9, 13, 16, 18 and 20; Games 9/13/18 were losses strongly associated with mana screw.
 - After Game 20, reported change: **Ketramose, the New Dawn → Multiversal Passage** to add another land/source.
-- Games 21–28: **3–5**. No natural failure to make land drops has been reported in this block, but Game 28 was a clear **color-screw loss**: three lands were present, yet none produced white mana. Game 27 involved active opposing Strip Mine recursion and is tracked as disruption, not natural screw.
+- Games 21–29: **3–6**. No natural failure to make land drops has been reported in this block, but Game 28 was a clear **color-screw loss**: three lands were present, yet none produced white mana. Game 27 involved active opposing Strip Mine recursion and is tracked as disruption, not natural screw.
