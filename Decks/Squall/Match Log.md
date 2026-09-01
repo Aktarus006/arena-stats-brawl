@@ -1,44 +1,61 @@
-# Squall — Match Log
+# Squall — Match Index
 
-> Historical reconstruction from the testing conversation. Details are intentionally limited to what was actually reported. Result count after Game 30: **15–15**.
+**Record after 30 games: 15–15 (50.0%)**
 
-| # | Result | Opponent | Key observations |
-|---:|:---:|---|---|
-| 1 | W | Slimefoot and Squee | Opponent recurred Haywire Mite and other graveyard value. **Spectacular Spider-Man** protected creatures repeatedly, **Key to the City** enabled unblockable Squall, **Kutzil's Flanker** exiled the opposing graveyard. |
-| 2 | W | Errant and Giada | Difficult Azorius flash/control game. **Ripples of Undeath** stocked the graveyard. Strip Mine recursion threatened long-game mana denial. **Mother of Runes** helped remove Witness Protection from a key creature; opponent conceded. |
-| 3 | L | Tifa | Harmonizer doubled power with landfall and became too large. Pilot reported a misplay: did not pay Ripples to retain **Dismember**, confusing the trigger with Static Prison upkeep; believed the game may otherwise have been winnable. |
-| 4 | W | Raph and Mickey | T1 Esper Sentinel; T2 Dark Ritual + Squall; T3 multiple Squall recursion triggers returned a Marsh Flats plus hand disruption (**Inquisition**, Deep-Cavern Bat). Opponent conceded. |
-| 5 | W | Chatterfang | T2 Squall with Dark Ritual and fetchland already in graveyard; opponent conceded T3. Fetch recursion produced explosive mana development. |
-| 6 | W | Raph and Mickey | Opponent used Channel into an early commander and Ghalta. Barrowgoyf + Mother helped stabilize. Fell to 2 life; later Squall returned **Barrowgoyf + Static Prison**, taking the opponent's mana rock and forcing concession. |
-| 7 | L | Leovold | Opponent assembled a graveyard/land recursion engine involving a green Alchemy card, Strip Mine and recurring lands; Squall deck could not contain it. |
-| 8 | W | Hei Bai (Avatar panda) | Five-color Shrines opponent. **Sheoldred, the Apocalypse** punished Sylvan Library and was decisive. |
-| 9 | L | 5C Phyrexian Omnath | T2 Squall countered by Force of Will. Drannith Magistrate slowed the opponent, but multiple missed land drops put Squall too far behind; opponent eventually generated huge value with flipped battle plus Elesh Norn/Yarok effects. |
-| 10 | W | Tifa | Tifa handled early with **Werefox Bodyguard**. Opponent then missed land development; **Sheoldred** restored life lost to Confidant, Mana Confluence, fetch/shock and Thoughtseize. |
-| 11 | L | Oura, the Imitator | Dimir. Opposing flying lifelink commander pressured life total. **Disruptor Flute** prevented early Squall deployment. Pilot ultimately died to own **Dark Confidant** trigger after substantial life loss. |
-| 12 | L | Merry | Boros legends aggro. Flowering Tree protected/boosted legends alongside Laelia, Skrelv, Squee and Hound of Konda; too much early pressure to stabilize. |
-| 13 | L | Teysa Spirits | Moonshadow T1, but never found the third land. Classified primarily as mana screw. |
-| 14 | W | Emry | Large **Barrowgoyf** established a threatening board; opponent conceded early. |
-| 15 | L | Amalia Benavides Aguirre | Drannith Magistrate slowed the opponent. Topdecked **Toxic Deluge** cleared Squall's developed board; Amalia + Soul Warden then rebuilt and took over. |
-| 16 | W | Leovold | Early development slowed by a missed land drop, but opponent also stumbled. **Disruptor Flute** kept Leovold from being deployed. Squall deck won despite another opposing Toxic Deluge. |
-| 17 | W | Liliana of the Veil | Repeated sacrifice pressure. **Lurrus** was excellent: recurred cheap permanents from graveyard and lifelink recovered life lost to Ripples. Graveyard-as-second-hand plan helped play through Liliana. |
-| 18 | L | Aang at the Crossroads | T1 Ancient Tomb + Key; T2 Plains + Mother of Runes; then no further land. Another clear mana-screw loss. |
-| 19 | L | Mythweaver Poq | Mono-green explosive ramp; opponent reportedly had 12 lands by turn 5. Classified as extreme opposing ramp rather than a specific card failure. |
-| 20 | W | Pantlaza | T1 land + Chrome Mox (pitch Lotho) + Dark Confidant. Missed T2 land but Bob helped draw out of it, including Sheoldred. **Cloud** found Lightning Greaves; Squall then connected repeatedly and generated mana advantage despite two board wipes. |
-| 21 | W | Merry | Rematch. Opposing commander killed twice early: once by blocking with **Lotho**, then by flashing **Spectacular Spider-Man**. Opponent conceded. |
-| 22 | W | Lumra | Esper Sentinel T1, Ripples T2 stocked graveyard. Greaves setup plus Dismember/Solitude disrupted ramp creatures. Dark Ritual enabled Squall; **Strip Mine was recurred three times**. Opponent tried Lotus Field, Icetill Explorer/Food Chain, Primeval Titan, Command Beacon and graveyard hate. **Werefox** exiled Titan; Squall connected and returned **Boggart Trawler** to exile opponent's graveyard, heavily weakening Lumra. |
-| 23 | L | Hei Bai 5C control/combo | Mana Drain on T2 Deep-Cavern Bat accelerated opponent into commander/Sanctum of All. Opponent used blue Shrines as draw engines and a Plaza for land development, then Atraxa, Grand Unifier + a huge Psychic Frog as finishers. |
-| 24 | L | Hawkeye mono-red | Close race. Opponent topdecked a large Rage effect for lethal. **The Meathook Massacre** materially delayed defeat and helped stabilize. |
-| 25 | L | Tifa | **Traveling Chocobo** doubled triggers and snowballed too quickly for the available hand. Reinforced need for very early interaction in this matchup. |
-| 26 | W | Etali | T2 **Drannith Magistrate** locked commander deployment. T3 **Recruiter of the Guard → Skyclave Apparition**; T4 Apparition exiled Ruby Medallion. Opponent conceded. |
-| 27 | L | Grist | Heavy recursion via **Chthonian Nightmare**, recurring enchantment destruction and Icetill Explorer + Strip Mine. Squall saw both board wipes and Skyclave. Attempted Reanimate → Kutzil's Flanker for graveyard exile, but opponent used Endurance. Vampiric Tutor found Boggart Trawler, but opponent followed with Green Sun's Zenith → Primeval Titan + Field of the Dead. |
-| 28 | L | Atraxa, Grand Unifier | Kept three lands (**Urborg, Swamp, Ancient Tomb**) plus Dark Ritual but never accessed white mana. Early **Barrowgoyf + Sheoldred** kept pace while opponent developed mana rocks; opposing Strip Mine destroyed Ancient Tomb. **Portable Hole** was stranded in hand without white mana and could have attacked the rocks. Atraxa was eventually exiled, but **Toxic Deluge for 5** reset the board and **Icetill Explorer + Strip Mine recursion** took over. Classified as **color screw / white-source failure**, not a missed land-drop game. |
-| 29 | L | Raph and Mickey | **Disruptor Flute + Drannith Magistrate** successfully disrupted the commander plan and Squall developed a strong board. Opponent reset it with **Blasphemous Act** and eventually overwhelmed the deck through superior mana and repeated huge threats. Squall answered three creatures with power >8, but the fourth large threat was too much. Indicates that the matchup can exhaust finite answers if Raph/Mickey reaches its high-mana stage despite early commander disruption. |
-| 30 | W | Nashi, Gadgeteer (Sultai) | Excellent curve: **Esper Sentinel T1 → The Queen of Dale T2 → Recruiter of the Guard T3**, tutoring **Cloud, Midgar Mercenary**. T4 Cloud tutored **Lightning Greaves**. T5 Squall equipped with Greaves attacked but was blocked by Nashi flashed in by the opponent. Next development included **Sheoldred, the Apocalypse + Greaves**, after which the opponent conceded. Strong validation of the Recruiter → Cloud → equipment tutor chain and of Queen/Sentinel as early value leading into protected high-impact threats. |
+Detailed reports now live in `Matches/` as **one note per game**. This file stays intentionally compact so the vault remains readable at 100+ matches.
+
+## Games 001–010
+
+| # | Result | Opponent |
+|---:|:---:|---|
+| 001 | W | [[Matches/001 - Slimefoot and Squee|Slimefoot and Squee]] |
+| 002 | W | [[Matches/002 - Errant and Giada|Errant and Giada]] |
+| 003 | L | [[Matches/003 - Tifa|Tifa]] |
+| 004 | W | [[Matches/004 - Raph and Mickey|Raph and Mickey]] |
+| 005 | W | [[Matches/005 - Chatterfang|Chatterfang]] |
+| 006 | W | [[Matches/006 - Raph and Mickey|Raph and Mickey]] |
+| 007 | L | [[Matches/007 - Leovold|Leovold]] |
+| 008 | W | [[Matches/008 - Hei Bai|Hei Bai]] |
+| 009 | L | [[Matches/009 - 5C Phyrexian Omnath|5C Phyrexian Omnath]] |
+| 010 | W | [[Matches/010 - Tifa|Tifa]] |
+
+## Games 011–020
+
+| # | Result | Opponent |
+|---:|:---:|---|
+| 011 | L | [[Matches/011 - Oura the Imitator|Oura, the Imitator]] |
+| 012 | L | [[Matches/012 - Merry|Merry]] |
+| 013 | L | [[Matches/013 - Teysa Spirits|Teysa Spirits]] |
+| 014 | W | [[Matches/014 - Emry|Emry]] |
+| 015 | L | [[Matches/015 - Amalia|Amalia Benavides Aguirre]] |
+| 016 | W | [[Matches/016 - Leovold|Leovold]] |
+| 017 | W | [[Matches/017 - Liliana of the Veil|Liliana of the Veil]] |
+| 018 | L | [[Matches/018 - Aang at the Crossroads|Aang at the Crossroads]] |
+| 019 | L | [[Matches/019 - Mythweaver Poq|Mythweaver Poq]] |
+| 020 | W | [[Matches/020 - Pantlaza|Pantlaza]] |
+
+## Games 021–030
+
+| # | Result | Opponent |
+|---:|:---:|---|
+| 021 | W | [[Matches/021 - Merry|Merry]] |
+| 022 | W | [[Matches/022 - Lumra|Lumra]] |
+| 023 | L | [[Matches/023 - Hei Bai Control|Hei Bai Control]] |
+| 024 | L | [[Matches/024 - Hawkeye|Hawkeye]] |
+| 025 | L | [[Matches/025 - Tifa|Tifa]] |
+| 026 | W | [[Matches/026 - Etali|Etali]] |
+| 027 | L | [[Matches/027 - Grist|Grist]] |
+| 028 | L | [[Matches/028 - Atraxa Grand Unifier|Atraxa, Grand Unifier]] |
+| 029 | L | [[Matches/029 - Raph and Mickey|Raph and Mickey]] |
+| 030 | W | [[Matches/030 - Nashi Gadgeteer|Nashi, Gadgeteer]] |
 
 ## Checkpoints
 
-- Games 1–20: **11–9**.
-- Reported mana-development problems occurred in Games 9, 13, 16, 18 and 20; Games 9/13/18 were losses strongly associated with mana screw.
-- After Game 20, reported change: **Ketramose, the New Dawn → Multiversal Passage** to add another land/source.
-- Games 21–30: **4–6**. No natural failure to make land drops was reported in this block. Game 28 was a clear **color-screw loss** despite three lands; Game 27 involved active opposing Strip Mine recursion and is tracked as disruption, not natural screw.
-- **30-game record: 15–15 (50.0%).** The post-change sample improved land-drop consistency but did not improve raw win rate over this ten-game block; matchup composition and color quality should be considered before attributing causality to the extra land.
+- Games 1–20: **11–9 (55%)**.
+- After Game 20: **Ketramose, the New Dawn → Multiversal Passage**.
+- Games 21–30: **4–6 (40%)**.
+- No natural missed-land-drop failure was reported in Games 21–30; Game 28 was instead a **white color-screw** loss.
+
+## Logging convention going forward
+
+Each new match gets its own `Matches/NNN - Opponent.md` note with YAML metadata. This index only receives the result/link and checkpoint summaries when useful.
