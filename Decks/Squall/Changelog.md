@@ -64,6 +64,39 @@ Meanwhile, losses repeatedly involved insufficient ability to stop opposing engi
 
 Games 41+ should be treated as the V2 test sample.
 
+## After Game 50 — V2.1 recursive interaction toolbox
+
+### Archived version
+- [[Versions/V2 - Games 41-50]]
+
+### V2 result
+- Games 41–50: **1–9**.
+- The result was poor, but the six V2 additions were barely observed during the block: only **Seam Rip** and **Reprieve** were reported as drawn, once each.
+
+### OUT
+- Braids, Arisen Nightmare
+- The Sackville-Bagginses
+- Kaya's Ghostform
+- Necropotence
+
+### IN
+- Loran of the Third Path
+- Sheltered by Ghosts
+- Plaguecrafter
+- Ral Zarek, Guest Lecturer
+
+### Reason
+The 50-game audit showed repeated losses to permanent-based engines and threats that ordinary one-for-one creature removal could not efficiently contain. V2.1 increases the density of interaction that either lives on a creature body or supports the recursion/toolbox plan without depending on Squall to be useful.
+
+- **Loran of the Third Path** adds Recruiter-compatible artifact/enchantment removal and directly addresses repeated losses to noncreature engines.
+- **Sheltered by Ghosts** combines removal with protection/pressure, helping both the reactive plan and Squall's need to connect.
+- **Plaguecrafter** adds a non-targeting sacrifice axis alongside Accursed Marauder and Sheoldred's Edict, useful against indestructible, ward, hexproof, protection, and planeswalkers.
+- **Ral Zarek, Guest Lecturer** provides Surveil and a second recursion engine for mana-value-3-or-less creatures, particularly the growing ETB interaction toolbox.
+
+**Warren Soultrader remains in V2.1 for testing.** With more ETB creatures such as Loran and Plaguecrafter, voluntarily sacrificing a creature after it has generated value can produce a Treasure and make that creature available for Squall/Ral recursion again.
+
+Games 51+ are the V2.1 test sample.
+
 ## Versioning policy
 
 For every major deck revision:
