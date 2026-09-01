@@ -1,6 +1,6 @@
 # Squall — Match Log
 
-> Historical reconstruction from the testing conversation. Details are intentionally limited to what was actually reported. Result count after Game 29: **14–15**.
+> Historical reconstruction from the testing conversation. Details are intentionally limited to what was actually reported. Result count after Game 30: **15–15**.
 
 | # | Result | Opponent | Key observations |
 |---:|:---:|---|---|
@@ -33,10 +33,12 @@
 | 27 | L | Grist | Heavy recursion via **Chthonian Nightmare**, recurring enchantment destruction and Icetill Explorer + Strip Mine. Squall saw both board wipes and Skyclave. Attempted Reanimate → Kutzil's Flanker for graveyard exile, but opponent used Endurance. Vampiric Tutor found Boggart Trawler, but opponent followed with Green Sun's Zenith → Primeval Titan + Field of the Dead. |
 | 28 | L | Atraxa, Grand Unifier | Kept three lands (**Urborg, Swamp, Ancient Tomb**) plus Dark Ritual but never accessed white mana. Early **Barrowgoyf + Sheoldred** kept pace while opponent developed mana rocks; opposing Strip Mine destroyed Ancient Tomb. **Portable Hole** was stranded in hand without white mana and could have attacked the rocks. Atraxa was eventually exiled, but **Toxic Deluge for 5** reset the board and **Icetill Explorer + Strip Mine recursion** took over. Classified as **color screw / white-source failure**, not a missed land-drop game. |
 | 29 | L | Raph and Mickey | **Disruptor Flute + Drannith Magistrate** successfully disrupted the commander plan and Squall developed a strong board. Opponent reset it with **Blasphemous Act** and eventually overwhelmed the deck through superior mana and repeated huge threats. Squall answered three creatures with power >8, but the fourth large threat was too much. Indicates that the matchup can exhaust finite answers if Raph/Mickey reaches its high-mana stage despite early commander disruption. |
+| 30 | W | Nashi, Gadgeteer (Sultai) | Excellent curve: **Esper Sentinel T1 → The Queen of Dale T2 → Recruiter of the Guard T3**, tutoring **Cloud, Midgar Mercenary**. T4 Cloud tutored **Lightning Greaves**. T5 Squall equipped with Greaves attacked but was blocked by Nashi flashed in by the opponent. Next development included **Sheoldred, the Apocalypse + Greaves**, after which the opponent conceded. Strong validation of the Recruiter → Cloud → equipment tutor chain and of Queen/Sentinel as early value leading into protected high-impact threats. |
 
 ## Checkpoints
 
 - Games 1–20: **11–9**.
 - Reported mana-development problems occurred in Games 9, 13, 16, 18 and 20; Games 9/13/18 were losses strongly associated with mana screw.
 - After Game 20, reported change: **Ketramose, the New Dawn → Multiversal Passage** to add another land/source.
-- Games 21–29: **3–6**. No natural failure to make land drops has been reported in this block, but Game 28 was a clear **color-screw loss**: three lands were present, yet none produced white mana. Game 27 involved active opposing Strip Mine recursion and is tracked as disruption, not natural screw.
+- Games 21–30: **4–6**. No natural failure to make land drops was reported in this block. Game 28 was a clear **color-screw loss** despite three lands; Game 27 involved active opposing Strip Mine recursion and is tracked as disruption, not natural screw.
+- **30-game record: 15–15 (50.0%).** The post-change sample improved land-drop consistency but did not improve raw win rate over this ten-game block; matchup composition and color quality should be considered before attributing causality to the extra land.
