@@ -1,6 +1,6 @@
 # Squall — Current Decklist
 
-> **Version: V2 — interaction-heavy refactor after Game 40.**
+> **Version: V2.1 — recursive interaction toolbox after Game 50.**
 >
 > Moxfield deck name: **Orzhov GS**
 
@@ -21,7 +21,6 @@
 1 Bleachbone Verge
 1 Bloodstained Mire
 1 Boggart Trawler
-1 Braids, Arisen Nightmare
 1 Brightclimb Pathway
 1 Buster Sword
 1 Cathar Commando
@@ -53,11 +52,11 @@
 1 Grand Abolisher
 1 Grief
 1 Inquisition of Kozilek
-1 Kaya's Ghostform
 1 Key to the City
 1 Kutzil's Flanker
 1 Library of Alexandria
 1 Lightning Greaves
+1 Loran of the Third Path
 1 Lotho, Corrupt Shirriff
 1 Lurrus of the Dream-Den
 1 Malakir Rebirth
@@ -66,13 +65,14 @@
 1 Mirrex
 1 Mother of Runes
 1 Multiversal Passage
-1 Necropotence
 1 Opposition Agent
 1 Path to Exile
+1 Plaguecrafter
 3 Plains
 1 Polluted Delta
 1 Portable Hole
 1 Prismatic Vista
+1 Ral Zarek, Guest Lecturer
 1 Ranger-Captain of Eos
 1 Reanimate
 1 Recruiter of the Guard
@@ -84,6 +84,7 @@
 1 Shattered Sanctum
 1 Sheoldred, the Apocalypse
 1 Sheoldred's Edict
+1 Sheltered by Ghosts
 1 Silent Clearing
 1 Skrelv, Defector Mite
 1 Skyclave Apparition
@@ -97,7 +98,6 @@
 1 Thalia, Guardian of Thraben
 1 The Meathook Massacre
 1 The Queen of Dale
-1 The Sackville-Bagginses
 1 Thoughtseize
 1 Toxic Deluge
 1 Umezawa's Jitte
@@ -110,27 +110,26 @@
 1 Windswept Heath
 ```
 
-## V2 changes from V1
+## V2.1 changes from V2
 
 ### OUT
-- Caustic Bronco
-- Dark Confidant
-- Enduring Innocence
-- Moonshadow
-- Nethergoyf
-- Phelia, Exuberant Shepherd
+- Braids, Arisen Nightmare
+- The Sackville-Bagginses
+- Kaya's Ghostform
+- Necropotence
 
 ### IN
-- Erode
-- Farewell
-- Path to Exile
-- Reprieve
-- Seam Rip
-- Sheoldred's Edict
+- Loran of the Third Path
+- Sheltered by Ghosts
+- Plaguecrafter
+- Ral Zarek, Guest Lecturer
 
 ## Notes
 
 - `Ademi of the Silkchutes` is the Arena/Through the Omenpaths version corresponding to Spectacular Spider-Man.
 - `Multiversal Passage` replaced Ketramose after Game 20 as the additional land/source experiment.
 - V1 is archived at [[Versions/V1 - Games 31-40]].
-- V2 begins with Game 41. The core hypothesis is that Squall should recur already-good interaction rather than require low-impact synergy/value cards to function.
+- V2 is archived at [[Versions/V2 - Games 41-50]].
+- V2.1 begins with Game 51.
+- V2.1 pushes the deck further toward a Recruiter/Squall-compatible interaction toolbox: Loran for artifacts/enchantments, Plaguecrafter for non-targeting sacrifice pressure, Sheltered by Ghosts for removal plus protection, and Ral as a secondary graveyard recursion engine.
+- Warren Soultrader remains for this test block because sacrificing already-used ETB creatures can produce mana while putting them back into the Squall/Ral recursion loop.
