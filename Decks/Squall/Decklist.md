@@ -1,6 +1,6 @@
 # Squall — Current Decklist
 
-> **Status: confirmed current list supplied by pilot after Game 30.**
+> **Version: V2 — interaction-heavy refactor after Game 40.**
 >
 > Moxfield deck name: **Orzhov GS**
 
@@ -25,14 +25,12 @@
 1 Brightclimb Pathway
 1 Buster Sword
 1 Cathar Commando
-1 Caustic Bronco
 1 Cavern of Souls
 1 Caves of Koilos
 1 Chrome Mox
 1 Cloud, Midgar Mercenary
 1 Command Tower
 1 Concealed Courtyard
-1 Dark Confidant
 1 Dark Ritual
 1 Dauthi Voidwalker
 1 Deadly Rollick
@@ -41,9 +39,10 @@
 1 Disruptor Flute
 1 Drannith Magistrate
 1 Eiganjo, Seat of the Empire
-1 Enduring Innocence
+1 Erode
 1 Esper Sentinel
 1 Fabled Passage
+1 Farewell
 1 Fatal Push
 1 Fell the Profane
 1 Flooded Strand
@@ -65,13 +64,11 @@
 1 Mana Confluence
 1 Marsh Flats
 1 Mirrex
-1 Moonshadow
 1 Mother of Runes
 1 Multiversal Passage
 1 Necropotence
-1 Nethergoyf
 1 Opposition Agent
-1 Phelia, Exuberant Shepherd
+1 Path to Exile
 3 Plains
 1 Polluted Delta
 1 Portable Hole
@@ -79,11 +76,14 @@
 1 Ranger-Captain of Eos
 1 Reanimate
 1 Recruiter of the Guard
+1 Reprieve
 1 Ripples of Undeath
+1 Seam Rip
 1 Shadowspear
 1 Shadowy Backstreet
 1 Shattered Sanctum
 1 Sheoldred, the Apocalypse
+1 Sheoldred's Edict
 1 Silent Clearing
 1 Skrelv, Defector Mite
 1 Skyclave Apparition
@@ -110,8 +110,27 @@
 1 Windswept Heath
 ```
 
+## V2 changes from V1
+
+### OUT
+- Caustic Bronco
+- Dark Confidant
+- Enduring Innocence
+- Moonshadow
+- Nethergoyf
+- Phelia, Exuberant Shepherd
+
+### IN
+- Erode
+- Farewell
+- Path to Exile
+- Reprieve
+- Seam Rip
+- Sheoldred's Edict
+
 ## Notes
 
 - `Ademi of the Silkchutes` is the Arena/Through the Omenpaths version corresponding to Spectacular Spider-Man.
 - `Multiversal Passage` replaced Ketramose after Game 20 as the additional land/source experiment.
-- This list is the baseline for mana-base and card-performance analysis from Game 31 onward unless another change is explicitly recorded in [[Changelog]].
+- V1 is archived at [[Versions/V1 - Games 31-40]].
+- V2 begins with Game 41. The core hypothesis is that Squall should recur already-good interaction rather than require low-impact synergy/value cards to function.
