@@ -19,6 +19,7 @@ Drannith Magistrate, Disruptor Flute and edict effects remain premium.
 - Ketramose G52: commander was answered four times in a long win.
 - Narset G53: Sheoldred's Edict cleanly answered Narset when creature-targeted interaction was otherwise awkward.
 - Sephiroth G51: failure to prevent the commander flip allowed an emblem plus flying pressure to create an effectively irreversible advantage.
+- Oura G57: Drannith kept Oura off normal commander deployment long enough for Squall to win through an alternate combat plan.
 
 **Working plan:** identify commanders whose payoff becomes irreversible and interact before the trigger/transform point.
 
@@ -30,6 +31,8 @@ Notable opponents: Slimefoot and Squee, Leovold, Lumra, Grist, Ketramose.
 
 **Risk:** redundant engines can answer the first graveyard-hate effect and continue via tutors/lands.
 
+**Important resilience signal:** G57 vs Oura showed the deck can still win after **Valgavoth shuts off graveyard access**, by pivoting to equipment/evasion/lifelink rather than recursion.
+
 ## Noncreature engines / artifact-enchantment value
 
 Notable examples: Urza/Paradox Engine, Ugin/Forsaken Monument, Thor equipment, Iron Man artifacts, Narset/Omniscience.
@@ -37,6 +40,17 @@ Notable examples: Urza/Paradox Engine, Ugin/Forsaken Monument, Thor equipment, I
 **Working plan:** interaction must reach the engine permanent itself. Loran, Erode, Sheltered by Ghosts, Get Lost and Farewell are especially important to evaluate here.
 
 G53 demonstrated the opposite side of this problem: a hand full of creature interaction can be poorly shaped against a deck presenting almost no creatures before its commander.
+
+## Dimir flash / evasive tempo
+
+Oura has now been seen twice.
+
+- G11: loss after sustained flying/lifelink pressure; opposing Disruptor Flute delayed Squall and Dark Confidant self-damage contributed to lethal.
+- G57: win in a long game. Drannith locked Oura, Valgavoth disabled graveyard recursion, but **Cloud → Buster Sword**, **Key to the City**, and **Sheltered by Ghosts lifelink** let Squall win the race.
+
+**Observed record vs Oura:** **1–1**.
+
+**Working plan:** commander denial remains valuable, but the matchup can become a long evasive race. Lifelink and reliable evasion are meaningful backup plans when the graveyard is inaccessible.
 
 ## 5C value/control
 
@@ -57,3 +71,5 @@ Results remain mixed rather than structurally bad. Squall/Lurrus/Ral recursion c
 ## Sequencing / equipment
 
 G54 vs Anim Pakal exposed an important internal interaction: **Lightning Greaves gives shroud**, preventing Key to the City from subsequently targeting Squall. When evasion is needed, activate Key before equipping Greaves or delay the equip if protection is less important than connecting.
+
+G57 provides the positive counterpart: **Cloud → Buster Sword + Key + Sheltered by Ghosts** formed a successful non-recursive combat package, with Sheltered's lifelink sustaining the race.
