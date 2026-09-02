@@ -2,46 +2,57 @@
 
 ## Competitive Brawl test project
 
-**Current recorded result:** 15–15 (50.0%) after 30 games.
+**Current recorded result:** 21–35 (37.5%) after 56 games.
 
-This deck has increasingly behaved as an **Orzhov disruptive recursive toolbox/tempo deck**, rather than a simple commander-centric goodstuff pile.
+**Current version:** V2.1 — Games 51+
+
+This deck is being developed as an **Orzhov disruptive recursive toolbox/tempo deck**, not as an all-in commander recursion deck.
 
 ## Core observed plan
 
-1. Disrupt the opponent early with discard, hatebears and efficient removal.
-2. Prepare Squall with protection/evasion such as Mother of Runes, Key to the City, Lightning Greaves or equipment tutoring.
-3. Connect with Squall and convert the graveyard into a second hand.
-4. Recur lands for mana development or denial, especially fetchlands and Strip Mine.
-5. Recur low-cost permanents and ETB creatures for repeated interaction/value.
-6. Use Lurrus as a secondary graveyard engine so the deck is not entirely dependent on Squall.
+1. Disrupt early with discard, hatebears and efficient removal.
+2. Answer the opponent's actual engine, not only the threats produced by it.
+3. Use protection/evasion to create safe Squall connection windows.
+4. Convert the graveyard into a second hand through Squall, Lurrus, Reanimate and Ral.
+5. Reuse low-cost ETB creatures as a recursive interaction toolbox.
+6. Remain capable of winning games without casting Squall.
 
-## 30-game checkpoint
+## Version checkpoints
 
-- **Overall:** 15–15 (50.0%).
-- **Games 1–20:** 11–9 (55%).
-- **Games 21–30 after Ketramose → Multiversal Passage:** 4–6 (40%).
-- The extra land/source appears to have addressed the repeated **missed land-drop** pattern: none was naturally reported in Games 21–30.
-- Game 28 exposed a different issue: **white-source access/color quality** can still fail even with enough lands in hand.
-- The 4–6 post-change record should not be treated as proof that the extra land weakened the deck; several losses were against fast snowball, recursion/ramp, color screw, or high-mana value engines.
+- Games 1–20: **11–9 (55%)**.
+- Games 21–30: **4–6 (40%)**.
+- Games 31–40: **3–7 (30%)**.
+- V2, Games 41–50: **1–9 (10%)**.
+- V2.1, Games 51–56: **2–4 (33.3%)**.
+- Overall: **21–35 (37.5%)**.
+
+## V2.1 direction
+
+After the 50-game audit, the list moved away from lower-impact value/setup pieces and toward reusable interaction.
+
+**Added:** Loran of the Third Path, Sheltered by Ghosts, Plaguecrafter, Ral Zarek, Guest Lecturer.
+
+**Removed:** Braids, Arisen Nightmare, The Sackville-Bagginses, Kaya's Ghostform, Necropotence.
+
+Early evidence is encouraging for the concept even though the record remains negative: G52 was won without casting Squall, using **Plaguecrafter, Lurrus and Ral** as an independent recursive-value engine.
 
 ## Strongest observed themes
 
-- **Squall + fetchlands:** explosive mana development; one game produced two fetch returns and five lands by turn 3.
-- **Squall + Strip Mine:** repeated land denial; triple Strip Mine recursion was decisive against Lumra.
-- **Ripples of Undeath:** self-mill turns the graveyard into a toolbox, while the life payment can preserve important instants/sorceries.
-- **Creature-based interaction:** Werefox Bodyguard, Kutzil's Flanker, Skyclave Apparition, Boggart Trawler and Recruiter of the Guard fit the recursion plan particularly well.
-- **Equipment toolbox:** Cloud/Stoneforge can find Greaves, Shadowspear, Jitte or Buster Sword depending on the game state.
-- **Tutor chain:** Game 30 demonstrated **Recruiter of the Guard → Cloud → Lightning Greaves → protected Squall/Sheoldred**, giving the deck a powerful deterministic development line when uninterrupted.
-- **Hatebear plan:** Drannith Magistrate and Disruptor Flute have won significant tempo against commander-centric decks.
+- **Creature toolbox:** Recruiter of the Guard can find specialized interaction such as Drannith Magistrate, Skyclave Apparition, Werefox Bodyguard, Kutzil's Flanker, Loran and Plaguecrafter-compatible support lines.
+- **Sacrifice interaction:** Accursed Marauder, Plaguecrafter and Sheoldred's Edict provide answers that can bypass protection/indestructible patterns depending on board composition.
+- **Commander disruption:** Drannith Magistrate and Disruptor Flute repeatedly buy important tempo.
+- **Recursive engines:** Squall, Lurrus, Reanimate and Ral allow useful ETB creatures to generate repeated value.
+- **Squall + lands:** fetchlands and Strip Mine remain high-ceiling recursion targets.
+- **Board stabilization:** The Meathook Massacre remains a major anti-aggro comeback card; G56 cleared five creatures after Vampiric Tutor found it.
 
 ## Current concerns
 
-- **Color access:** Game 28 was lost despite a three-land opener because Urborg + Swamp + Ancient Tomb never provided white. White interaction (notably Portable Hole) was stranded while the opponent ramped.
-- Life total can become strained by black card advantage, fetch/shock mana, Ancient Tomb, Mana Confluence and discard costs.
-- Very fast snowball decks (notably Tifa) can outpace slower value hands.
-- Highly redundant graveyard/toolbox decks can fight through the first graveyard-hate effect.
-- Opposing **Icetill Explorer + Strip Mine** recursion has appeared as a particularly punishing anti-Squall resource-denial engine.
-- High-mana ramp/value decks can eventually exhaust one-for-one interaction if early disruption does not convert into sufficient pressure.
+- **Fast aggro:** Gut/Cori-Steel Cutter in G56 showed that early damage can leave too little margin even after a five-creature Meathook reset.
+- **Mana disruption:** G56 involved opposing Strip Mine followed by failure to draw replacement lands; distinguish opponent-driven denial from natural mana-base failures.
+- **Noncreature engines:** Narset/Omniscience and previous artifact-engine losses reinforce the need for interaction that reaches enchantments, artifacts and planeswalkers.
+- **Interaction shape:** creature-heavy hands can be awkward against decks presenting few creatures.
+- **Protection/evasion sequencing:** G54 exposed the anti-synergy between Lightning Greaves' shroud and targeting Squall with Key to the City.
+- **Commander transformation/emblems:** G51 showed that some commanders must be stopped before their irreversible payoff is created.
 
 ## Links
 
@@ -50,3 +61,4 @@ This deck has increasingly behaved as an **Orzhov disruptive recursive toolbox/t
 - [[Matchups]]
 - [[Changelog]]
 - [[Decklist]]
+- [[Versions/V2.1 - Games 51-current|Current V2.1 tracking]]
