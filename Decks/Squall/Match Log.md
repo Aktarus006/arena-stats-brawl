@@ -1,6 +1,6 @@
 # Squall — Match Index
 
-**Record after 56 games: 21–35 (37.5%)**
+**Record after 57 games: 22–35 (38.6%)**
 
 Detailed reports live in `Matches/` as **one note per game**. This file stays intentionally compact so the vault remains readable at 100+ matches.
 
@@ -61,7 +61,7 @@ Record: **1–9**.
 
 See individual notes in `Matches/041...050` and [[Versions/V2 - Games 41-50]].
 
-## Games 051–056 — V2.1
+## Games 051–057 — V2.1
 
 | # | Result | Opponent |
 |---:|:---:|---|
@@ -71,8 +71,9 @@ See individual notes in `Matches/041...050` and [[Versions/V2 - Games 41-50]].
 | 054 | L | [[Matches/054 - Anim Pakal|Anim Pakal]] |
 | 055 | W | [[Matches/055 - Hidetsugu and Kairi|Hidetsugu and Kairi]] |
 | 056 | L | [[Matches/056 - Gut|Gut]] |
+| 057 | W | [[Matches/057 - Oura the Imitator|Oura, the Imitator]] |
 
-V2.1 current record: **2–4 (33.3%)**.
+V2.1 current record: **3–4 (42.9%)**.
 
 ## Checkpoints
 
@@ -80,8 +81,8 @@ V2.1 current record: **2–4 (33.3%)**.
 - Games 21–30: **4–6 (40%)**.
 - Games 31–40: **3–7 (30%)**.
 - Games 41–50 / V2: **1–9 (10%)**.
-- Games 51–56 / V2.1: **2–4 (33.3%)**.
-- Overall after G56: **21–35 (37.5%)**.
+- Games 51–57 / V2.1: **3–4 (42.9%)**.
+- Overall after G57: **22–35 (38.6%)**.
 
 ## Logging convention
 
