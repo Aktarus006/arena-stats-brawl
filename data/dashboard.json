@@ -1,0 +1,1057 @@
+{
+  "deck": {
+    "name": "Squall, SeeD Mercenary",
+    "format": "MTG Arena Competitive Brawl",
+    "current_version": "V2.1",
+    "source": "Decks/Squall/Decklist.md"
+  },
+  "games": [
+    {
+      "id": 1,
+      "result": "win",
+      "opponent": "Slimefoot and Squee",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/001 - Slimefoot and Squee.md"
+    },
+    {
+      "id": 2,
+      "result": "win",
+      "opponent": "Errant and Giada",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/002 - Errant and Giada.md"
+    },
+    {
+      "id": 3,
+      "result": "loss",
+      "opponent": "Tifa",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/003 - Tifa.md"
+    },
+    {
+      "id": 4,
+      "result": "win",
+      "opponent": "Raph and Mickey",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/004 - Raph and Mickey.md"
+    },
+    {
+      "id": 5,
+      "result": "win",
+      "opponent": "Chatterfang",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/005 - Chatterfang.md"
+    },
+    {
+      "id": 6,
+      "result": "win",
+      "opponent": "Raph and Mickey",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/006 - Raph and Mickey.md"
+    },
+    {
+      "id": 7,
+      "result": "loss",
+      "opponent": "Leovold",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/007 - Leovold.md"
+    },
+    {
+      "id": 8,
+      "result": "win",
+      "opponent": "Hei Bai",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/008 - Hei Bai.md"
+    },
+    {
+      "id": 9,
+      "result": "loss",
+      "opponent": "5C Phyrexian Omnath",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "missed_land_drop",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/009 - 5C Phyrexian Omnath.md"
+    },
+    {
+      "id": 10,
+      "result": "win",
+      "opponent": "Tifa",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/010 - Tifa.md"
+    },
+    {
+      "id": 11,
+      "result": "loss",
+      "opponent": "Oura, the Imitator",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/011 - Oura the Imitator.md"
+    },
+    {
+      "id": 12,
+      "result": "loss",
+      "opponent": "Merry",
+      "archetype": "aggro",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/012 - Merry.md"
+    },
+    {
+      "id": 13,
+      "result": "loss",
+      "opponent": "Teysa Spirits",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "missed_land_drop",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/013 - Teysa Spirits.md"
+    },
+    {
+      "id": 14,
+      "result": "win",
+      "opponent": "Emry",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/014 - Emry.md"
+    },
+    {
+      "id": 15,
+      "result": "loss",
+      "opponent": "Amalia Benavides Aguirre",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/015 - Amalia.md"
+    },
+    {
+      "id": 16,
+      "result": "win",
+      "opponent": "Leovold",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "missed_land_drop",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/016 - Leovold.md"
+    },
+    {
+      "id": 17,
+      "result": "win",
+      "opponent": "Liliana of the Veil",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/017 - Liliana of the Veil.md"
+    },
+    {
+      "id": 18,
+      "result": "loss",
+      "opponent": "Aang at the Crossroads",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "missed_land_drop",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/018 - Aang at the Crossroads.md"
+    },
+    {
+      "id": 19,
+      "result": "loss",
+      "opponent": "Mythweaver Poq",
+      "archetype": "ramp",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/019 - Mythweaver Poq.md"
+    },
+    {
+      "id": 20,
+      "result": "win",
+      "opponent": "Pantlaza",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "missed_land_drop",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/020 - Pantlaza.md"
+    },
+    {
+      "id": 21,
+      "result": "win",
+      "opponent": "Merry",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/021 - Merry.md"
+    },
+    {
+      "id": 22,
+      "result": "win",
+      "opponent": "Lumra",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/022 - Lumra.md"
+    },
+    {
+      "id": 23,
+      "result": "loss",
+      "opponent": "Hei Bai",
+      "archetype": "5C control-combo",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/023 - Hei Bai Control.md"
+    },
+    {
+      "id": 24,
+      "result": "loss",
+      "opponent": "Hawkeye",
+      "archetype": "mono-red aggro",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/024 - Hawkeye.md"
+    },
+    {
+      "id": 25,
+      "result": "loss",
+      "opponent": "Tifa",
+      "archetype": "landfall",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/025 - Tifa.md"
+    },
+    {
+      "id": 26,
+      "result": "win",
+      "opponent": "Etali",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/026 - Etali.md"
+    },
+    {
+      "id": 27,
+      "result": "loss",
+      "opponent": "Grist",
+      "archetype": "graveyard recursion",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/027 - Grist.md"
+    },
+    {
+      "id": 28,
+      "result": "loss",
+      "opponent": "Atraxa, Grand Unifier",
+      "archetype": "Unknown",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "color_screw_white",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/028 - Atraxa Grand Unifier.md"
+    },
+    {
+      "id": 29,
+      "result": "loss",
+      "opponent": "Raph and Mickey",
+      "archetype": "ramp",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/029 - Raph and Mickey.md"
+    },
+    {
+      "id": 30,
+      "result": "win",
+      "opponent": "Nashi, Gadgeteer",
+      "archetype": "Sultai",
+      "deck": "Squall",
+      "deck_version": "Legacy / unversioned",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/030 - Nashi Gadgeteer.md"
+    },
+    {
+      "id": 31,
+      "result": "loss",
+      "opponent": "Yuriko",
+      "archetype": "Dimir tempo / ninjas",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V1",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/031 - Yuriko.md"
+    },
+    {
+      "id": 32,
+      "result": "loss",
+      "opponent": "Kefka",
+      "archetype": "Grixis control / tempo",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V1",
+      "rank": "Unknown",
+      "mana_issue": "unknown",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/032 - Kefka.md"
+    },
+    {
+      "id": 33,
+      "result": "win",
+      "opponent": "The Wandering Emperor",
+      "archetype": "mono-white",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V1",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/033 - The Wandering Emperor.md"
+    },
+    {
+      "id": 34,
+      "result": "win",
+      "opponent": "Tourach, Dread Cantor",
+      "archetype": "unknown",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V1",
+      "rank": "Unknown",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/034 - Tourach Dread Cantor.md"
+    },
+    {
+      "id": 35,
+      "result": "loss",
+      "opponent": "Korvold",
+      "archetype": "Jund value / creature cheat",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/035 - Korvold.md"
+    },
+    {
+      "id": 36,
+      "result": "win",
+      "opponent": "Araña",
+      "archetype": "Boros",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/036 - Arana Boros.md"
+    },
+    {
+      "id": 37,
+      "result": "loss",
+      "opponent": "Yuriko",
+      "archetype": "Dimir tempo / ninjas",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/037 - Yuriko.md"
+    },
+    {
+      "id": 38,
+      "result": "loss",
+      "opponent": "Mighty Thor, Jane Foster",
+      "archetype": "artifact equipment / blink",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/038 - Mighty Thor Jane Foster.md"
+    },
+    {
+      "id": 39,
+      "result": "loss",
+      "opponent": "Ugin, Eye of the Storms",
+      "archetype": "colorless ramp / Eldrazi",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/039 - Ugin Eye of the Storms.md"
+    },
+    {
+      "id": 40,
+      "result": "loss",
+      "opponent": "Golos",
+      "archetype": "five-color ramp / big mana",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/040 - Golos.md"
+    },
+    {
+      "id": 41,
+      "result": "loss",
+      "opponent": "Roxanne",
+      "archetype": "Gruul meteor / artifact value",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/041 - Roxanne.md"
+    },
+    {
+      "id": 42,
+      "result": "loss",
+      "opponent": "Leonardo, the Balance + Mickey",
+      "archetype": "counters / sacrifice engine",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/042 - Leonardo and Mickey.md"
+    },
+    {
+      "id": 43,
+      "result": "loss",
+      "opponent": "Iron Man",
+      "archetype": "Izzet artifact aggro",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/043 - Iron Man.md"
+    },
+    {
+      "id": 44,
+      "result": "loss",
+      "opponent": "The Notary Hobbits",
+      "archetype": "ramp / Eldrazi",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/044 - The Notary Hobbits.md"
+    },
+    {
+      "id": 45,
+      "result": "win",
+      "opponent": "Baron Helmut Zemo",
+      "archetype": "black-based tempo / commander",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [
+        "Mother of Runes",
+        "Dark Ritual",
+        "Squall, SeeD Mercenary"
+      ],
+      "source_note": "Decks/Squall/Matches/045 - Baron Helmut Zemo.md"
+    },
+    {
+      "id": 46,
+      "result": "loss",
+      "opponent": "Urza, Lord High Artificer",
+      "archetype": "mono-blue artifacts / combo-value",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/046 - Urza Lord High Artificer.md"
+    },
+    {
+      "id": 47,
+      "result": "loss",
+      "opponent": "Hei Bai",
+      "archetype": "five-color shrines / control-value",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/047 - Hei Bai.md"
+    },
+    {
+      "id": 48,
+      "result": "loss",
+      "opponent": "Light-Paws",
+      "archetype": "mono-white auras / voltron",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/048 - Light-Paws.md"
+    },
+    {
+      "id": 49,
+      "result": "loss",
+      "opponent": "Kraum + Bruse Tarl",
+      "archetype": "Jeskai partner / interaction",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/049 - Kraum and Bruse Tarl.md"
+    },
+    {
+      "id": 50,
+      "result": "loss",
+      "opponent": "Kinnan",
+      "archetype": "Simic ramp / combo",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/050 - Kinnan.md"
+    },
+    {
+      "id": 51,
+      "result": "loss",
+      "opponent": "Sephiroth",
+      "archetype": "mono-black commander / sacrifice-value",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/051 - Sephiroth.md"
+    },
+    {
+      "id": 52,
+      "result": "win",
+      "opponent": "Ketramose",
+      "archetype": "Orzhov graveyard / value",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [
+        "Plaguecrafter",
+        "Lurrus of the Dream-Den",
+        "Ral Zarek, Guest Lecturer"
+      ],
+      "source_note": "Decks/Squall/Matches/052 - Ketramose.md"
+    },
+    {
+      "id": 53,
+      "result": "loss",
+      "opponent": "Narset, Enlightened Master",
+      "archetype": "Jeskai control / noncreature combo",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [
+        "Sheoldred's Edict",
+        "Disruptor Flute"
+      ],
+      "source_note": "Decks/Squall/Matches/053 - Narset Enlightened Master.md"
+    },
+    {
+      "id": 54,
+      "result": "loss",
+      "opponent": "Anim Pakal",
+      "archetype": "Boros aggro / go-wide counters",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [],
+      "source_note": "Decks/Squall/Matches/054 - Anim Pakal.md"
+    },
+    {
+      "id": 55,
+      "result": "win",
+      "opponent": "Hidetsugu and Kairi",
+      "archetype": "Dimir value / combo",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [
+        "Inquisition of Kozilek",
+        "Reanimate"
+      ],
+      "source_note": "Decks/Squall/Matches/055 - Hidetsugu and Kairi.md"
+    },
+    {
+      "id": 56,
+      "result": "loss",
+      "opponent": "Gut",
+      "archetype": "mono-red aggro",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "rank": "Gold 3",
+      "mana_issue": "unknown",
+      "mvp": [
+        "The Meathook Massacre",
+        "Erode"
+      ],
+      "source_note": "Decks/Squall/Matches/056 - Gut.md"
+    },
+    {
+      "id": 57,
+      "result": "win",
+      "opponent": "Oura, the Imitator",
+      "archetype": "Dimir flash / faeries",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [
+        "Drannith Magistrate",
+        "Cloud, Midgar Mercenary",
+        "Buster Sword",
+        "Key to the City",
+        "Sheltered by Ghosts"
+      ],
+      "source_note": "Decks/Squall/Matches/057 - Oura the Imitator.md"
+    },
+    {
+      "id": 58,
+      "result": "win",
+      "opponent": "Esika, God of the Tree // The Prismatic Bridge",
+      "archetype": "five-color Bridge / value",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [
+        "Gemstone Caverns",
+        "Voice of Victory",
+        "Dark Ritual",
+        "Static Prison"
+      ],
+      "source_note": "Decks/Squall/Matches/058 - Esika God of the Tree.md"
+    },
+    {
+      "id": 59,
+      "result": "win",
+      "opponent": "Tymna the Weaver + Thrasios, Triton Hero",
+      "archetype": "four-color partner / midrange-control",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [
+        "Ral Zarek, Guest Lecturer",
+        "Ranger-Captain of Eos",
+        "Accursed Marauder",
+        "Sheoldred's Edict"
+      ],
+      "source_note": "Decks/Squall/Matches/059 - Tymna and Thrasios.md"
+    },
+    {
+      "id": 60,
+      "result": "win",
+      "opponent": "Captain America",
+      "archetype": "Boros equipment / tempo",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "rank": "Gold 3",
+      "mana_issue": "none",
+      "mvp": [
+        "Skrelv, Defector Mite",
+        "Get Lost",
+        "Chrome Mox",
+        "Squall, SeeD Mercenary"
+      ],
+      "source_note": "Decks/Squall/Matches/060 - Captain America.md"
+    }
+  ],
+  "summary": {
+    "overall": {
+      "games": 60,
+      "wins": 25,
+      "losses": 35,
+      "win_rate": 41.7
+    },
+    "versions": {
+      "Legacy / unversioned": {
+        "games": 30,
+        "wins": 15,
+        "losses": 15,
+        "win_rate": 50.0
+      },
+      "V1": {
+        "games": 10,
+        "wins": 3,
+        "losses": 7,
+        "win_rate": 30.0
+      },
+      "V2": {
+        "games": 10,
+        "wins": 1,
+        "losses": 9,
+        "win_rate": 10.0
+      },
+      "V2.1": {
+        "games": 10,
+        "wins": 6,
+        "losses": 4,
+        "win_rate": 60.0
+      }
+    },
+    "archetypes": {
+      "5C control-combo": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "Boros": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      "Boros aggro / go-wide counters": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "Boros equipment / tempo": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      "Dimir flash / faeries": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      "Dimir tempo / ninjas": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      "Dimir value / combo": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      "Grixis control / tempo": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "Gruul meteor / artifact value": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "Izzet artifact aggro": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "Jeskai control / noncreature combo": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "Jeskai partner / interaction": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "Jund value / creature cheat": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "Orzhov graveyard / value": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      "Simic ramp / combo": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "Sultai": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      "Unknown": {
+        "games": 22,
+        "wins": 14,
+        "losses": 8,
+        "win_rate": 63.6
+      },
+      "aggro": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "artifact equipment / blink": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "black-based tempo / commander": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      "colorless ramp / Eldrazi": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "counters / sacrifice engine": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "five-color Bridge / value": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      "five-color ramp / big mana": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "five-color shrines / control-value": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "four-color partner / midrange-control": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      "graveyard recursion": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "landfall": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "mono-black commander / sacrifice-value": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "mono-blue artifacts / combo-value": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "mono-red aggro": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      "mono-white": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      "mono-white auras / voltron": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "ramp": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      "ramp / Eldrazi": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      "unknown": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      }
+    },
+    "mana_issues": {
+      "color_screw_white": 1,
+      "missed_land_drop": 5,
+      "unknown": 2
+    },
+    "mvp_mentions": {
+      "Dark Ritual": 2,
+      "Squall, SeeD Mercenary": 2,
+      "Ral Zarek, Guest Lecturer": 2,
+      "Sheoldred's Edict": 2,
+      "Mother of Runes": 1,
+      "Plaguecrafter": 1,
+      "Lurrus of the Dream-Den": 1,
+      "Disruptor Flute": 1,
+      "Inquisition of Kozilek": 1,
+      "Reanimate": 1,
+      "The Meathook Massacre": 1,
+      "Erode": 1,
+      "Drannith Magistrate": 1,
+      "Cloud, Midgar Mercenary": 1,
+      "Buster Sword": 1,
+      "Key to the City": 1,
+      "Sheltered by Ghosts": 1,
+      "Gemstone Caverns": 1,
+      "Voice of Victory": 1,
+      "Static Prison": 1,
+      "Ranger-Captain of Eos": 1,
+      "Accursed Marauder": 1,
+      "Skrelv, Defector Mite": 1,
+      "Get Lost": 1,
+      "Chrome Mox": 1
+    },
+    "data_quality": {
+      "version_known": 30,
+      "archetype_known": 38,
+      "rank_known": 26
+    }
+  }
+}

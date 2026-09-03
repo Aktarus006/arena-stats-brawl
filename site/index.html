@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101113">
+  <title>Arena Brawl Lab — Squall</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div class="eyebrow"><span class="signal"></span> LOCAL DECK INTELLIGENCE</div>
+      <div class="title-row">
+        <div>
+          <p class="kicker">MTG ARENA · COMPETITIVE BRAWL</p>
+          <h1>Squall <em>Lab</em></h1>
+          <p class="subtitle">A live testing ledger for a disruptive recursive toolbox.</p>
+        </div>
+        <div class="commander-badge" aria-label="Commander color identity: Orzhov">WB</div>
+      </div>
+    </header>
+
+    <section class="hero-grid" aria-label="Deck snapshot">
+      <article class="panel identity-panel">
+        <p class="section-label">CURRENT THESIS</p>
+        <h2>Disrupt. Connect. Recur.</h2>
+        <p>Remove the engine, establish a protected Squall connection, then replay premium permanents from the graveyard.</p>
+        <div class="tag-row"><span>V2.1</span><span>100 cards</span><span>38 land options</span></div>
+      </article>
+      <article class="panel score-panel">
+        <p class="section-label">ALL RECORDED GAMES</p>
+        <div class="score"><strong id="overall-record">—</strong><span id="overall-rate">—</span></div>
+        <p class="muted">Wins / losses · snapshot generated from match notes</p>
+      </article>
+      <article class="panel experiment-panel">
+        <p class="section-label">CURRENT EXPERIMENT</p>
+        <h2 id="experiment-record">V2.1 — —</h2>
+        <p>Keep the list stable through Game 80. Track engine pressure, safe connection windows, and each V2.1 card’s exposure.</p>
+      </article>
+    </section>
+
+    <section class="section-heading"><p>RESULTS, WITHOUT THE NOISE</p><span></span></section>
+    <section class="dashboard-grid">
+      <article class="panel timeline-panel"><div class="panel-head"><h2>Version trajectory</h2><p>Win rate per tracked deck version</p></div><div id="versions" class="versions"></div></article>
+      <article class="panel insight-panel"><div class="panel-head"><h2>Read the signal</h2><p>Data-aware conclusions</p></div><div id="insights" class="insights"></div></article>
+    </section>
+
+    <section class="section-heading"><p>MATCHUP LEDGER</p><span></span></section>
+    <section class="panel table-panel">
+      <div class="table-toolbar"><div><h2>Recorded opponents</h2><p>Filters never overwrite the underlying vault notes.</p></div><label>Filter <input id="filter" type="search" placeholder="Commander or archetype"></label></div>
+      <div class="table-wrap"><table><thead><tr><th>GAME</th><th>RESULT</th><th>OPPONENT</th><th>ARCHETYPE</th><th>VERSION</th><th>MANA</th></tr></thead><tbody id="games"></tbody></table></div>
+    </section>
+
+    <section class="lower-grid">
+      <article class="panel compact-panel"><div class="panel-head"><h2>Mana flags</h2><p>Recorded issues, not inferred mana failure.</p></div><div id="mana"></div></article>
+      <article class="panel compact-panel"><div class="panel-head"><h2>Data coverage</h2><p>What the dashboard can honestly claim.</p></div><div id="quality"></div></article>
+      <article class="panel compact-panel protocol"><div class="panel-head"><h2>Next game protocol</h2><p>60 seconds, structured.</p></div><ol><li>Log play/draw and mulligans.</li><li>Mark Squall cast and connection.</li><li>Choose one primary loss cause.</li><li>Record only decisive cards.</li></ol><code>python3 tools/log_game.py</code></article>
+    </section>
+
+    <footer>ARENA BRAWL LAB <span>•</span> Local-first, generated from your Obsidian match notes <span>•</span> <a href="../README.md">Repository notes</a></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
