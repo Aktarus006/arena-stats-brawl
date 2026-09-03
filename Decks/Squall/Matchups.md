@@ -6,66 +6,52 @@ Notable opponents: Hawkeye, Iron Man aggro, Gut.
 
 **Observed pattern:** early pressure can make self-damage and mana disruption especially punishing. Sweepers can stabilize but may arrive after commander/equipment damage has already reduced the margin too far.
 
-- Hawkeye: Meathook materially delayed lethal, but opponent topdecked the final damage.
-- Gut (G56): disruption slowed the start, but opposing Strip Mine constrained mana; Vampiric Tutor → Meathook X=1 eventually cleared five creatures with the opponent empty-handed, yet Gut + Cori-Steel Cutter pressure had already done enough damage.
-
-**Working plan:** prioritize cheap interaction and Meathook/Toxic Deluge lines; preserve life where possible; distinguish natural mana problems from opponent-driven land denial.
+**Working plan:** prioritize cheap interaction and Meathook/Toxic Deluge lines; preserve life where possible.
 
 ## Commander-centric / protected commanders
 
 Drannith Magistrate, Disruptor Flute and edict effects remain premium.
 
-- Etali: Drannith + Recruiter → Skyclave dismantled commander access and acceleration.
 - Ketramose G52: commander was answered four times in a long win.
-- Narset G53: Sheoldred's Edict cleanly answered Narset when creature-targeted interaction was otherwise awkward.
-- Sephiroth G51: failure to prevent the commander flip allowed an emblem plus flying pressure to create an effectively irreversible advantage.
-- Oura G57: Drannith kept Oura off normal commander deployment long enough for Squall to win through an alternate combat plan.
-- Tymna/Thrasios G59: Thrasios died to Accursed Marauder; Tymna was answered by Sheoldred's Edict and then a Ral-recurred Accursed Marauder after opposing Reanimate.
+- Narset G53: Sheoldred's Edict cleanly answered Narset.
+- Sephiroth G51: failure to prevent the commander flip allowed an effectively irreversible emblem advantage.
+- Oura G57: Drannith kept Oura off normal deployment.
+- Tymna/Thrasios G59: Marauder and Edict repeatedly answered the commanders, with Ral recycling exact answers.
 
-**Working plan:** identify commanders whose payoff becomes irreversible and interact before the trigger/transform point. Against partner/value decks, diversified sacrifice interaction is especially useful because it remains effective through repeated commander deployments.
+**Working plan:** identify commanders whose payoff becomes irreversible and interact before that point; recursion makes repeated commander removal much more valuable.
 
-## Partner midrange / control
+## Equipment / Boros engines
 
-G59 vs **Tymna + Thrasios** is an important positive datapoint. The opponent presented Force of Negation, Toxic Deluge, Dismember and Reanimate, yet Squall rebuilt through **Ral → Ranger-Captain → Esper Sentinel** and later **Ral → Accursed Marauder** to remove Tymna again.
+- Anim Pakal G54: wide pressure plus internal Greaves/Key sequencing issue led to a loss.
+- Captain America G60: **Get Lost on Sram** prevented the value engine from starting; Skrelv then protected Squall from red removal and was recurred by Squall after dying.
 
-**Working plan:** do not overextend into wipes unnecessarily; recursive ETB/tutor creatures plus Ral can convert the post-wipe graveyard into a highly specific recovery package.
+**Working plan:** kill Sram/equipment-value engines early, then leverage Skrelv/Mother/Giver to protect Squall from efficient red interaction. Broad interaction remains preferable to artifact-only answers because the engine may be a creature.
 
 ## Graveyard / land recursion
 
 Notable opponents: Slimefoot and Squee, Leovold, Lumra, Grist, Ketramose.
 
-**Successful tools:** Kutzil's Flanker, Boggart Trawler, Dauthi Voidwalker, Strip Mine recursion, Disruptor Flute, Plaguecrafter/Lurrus/Ral recursive value.
+**Successful tools:** Kutzil's Flanker, Boggart Trawler, Dauthi Voidwalker, Strip Mine recursion, Plaguecrafter/Lurrus/Ral recursive value.
 
-**Risk:** redundant engines can answer the first graveyard-hate effect and continue via tutors/lands.
-
-**Important resilience signal:** G57 vs Oura showed the deck can still win after **Valgavoth shuts off graveyard access**, by pivoting to equipment/evasion/lifelink rather than recursion.
+G57 showed the deck can still win when Valgavoth shuts off graveyard access by pivoting to equipment/evasion/lifelink.
 
 ## Noncreature engines / artifact-enchantment value
 
 Notable examples: Urza/Paradox Engine, Ugin/Forsaken Monument, Thor equipment, Iron Man artifacts, Narset/Omniscience.
 
-**Working plan:** interaction must reach the engine permanent itself. Loran, Erode, Sheltered by Ghosts, Get Lost and Farewell are especially important to evaluate here.
-
-G53 demonstrated the opposite side of this problem: a hand full of creature interaction can be poorly shaped against a deck presenting almost no creatures before its commander.
+**Working plan:** maintain interaction that reaches the engine permanent itself. Loran, Erode, Sheltered by Ghosts, Get Lost and Farewell remain important here.
 
 ## Dimir flash / evasive tempo
 
-Oura has now been seen twice.
+Oura observed record: **1–1**.
 
-- G11: loss after sustained flying/lifelink pressure; opposing Disruptor Flute delayed Squall and Dark Confidant self-damage contributed to lethal.
-- G57: win in a long game. Drannith locked Oura, Valgavoth disabled graveyard recursion, but **Cloud → Buster Sword**, **Key to the City**, and **Sheltered by Ghosts lifelink** let Squall win the race.
-
-**Observed record vs Oura:** **1–1**.
-
-**Working plan:** commander denial remains valuable, but the matchup can become a long evasive race. Lifelink and reliable evasion are meaningful backup plans when the graveyard is inaccessible.
+G57 showed commander denial plus lifelink/evasion can win a long race even when recursion is unavailable.
 
 ## 5C value/control
 
-Notable opponents: Hei Bai variants, Phyrexian Omnath, Atraxa, Esika/Bridge.
+Notable opponents: Hei Bai variants, Phyrexian Omnath, Atraxa, Esika.
 
-These decks can overwhelm Squall if they establish layered engines. Early discard, Drannith, Flute and broad permanent interaction are important before their card-advantage layer becomes overwhelming.
-
-G58 vs Esika showed the positive tempo version of this plan: fast mana plus Voice and Static Prison attacked the setup before The Prismatic Bridge engine could begin.
+G58 vs Esika showed that fast disruption can prevent these decks from ever reaching the layered-engine stage: Gemstone Caverns → Voice → equipment → Dark Ritual/Squall + Static Prison on a mana rock forced an early concession.
 
 ## Explosive green ramp / landfall
 
@@ -73,14 +59,12 @@ Tifa, Mythweaver Poq, Lumra, Grist/Primeval Titan and Golos lines can move from 
 
 **Working plan:** disruption must convert into pressure; answering the ramp engine once may not be sufficient if the opponent has time to rebuild.
 
-## Board wipes
+## Board wipes / rebuild
 
-Results remain mixed rather than structurally bad. Squall/Lurrus/Ral recursion can improve rebuilding, but opposing wipes that simultaneously rebuild the opponent's engine are particularly punishing.
-
-G59 is a strong positive example: after **Toxic Deluge**, Ral returned Ranger-Captain for another tutor and later Accursed Marauder for interaction, allowing the deck to rebuild with purpose rather than merely redeploying generic bodies.
+G59 is now the clearest positive example: opposing Toxic Deluge wiped the board, but **Ral → Ranger-Captain → tutor** and later **Ral → Accursed Marauder** rebuilt value and interaction efficiently.
 
 ## Sequencing / equipment
 
-G54 vs Anim Pakal exposed an important internal interaction: **Lightning Greaves gives shroud**, preventing Key to the City from subsequently targeting Squall. When evasion is needed, activate Key before equipping Greaves or delay the equip if protection is less important than connecting.
+G54: Lightning Greaves shroud prevents Key to the City from subsequently targeting Squall; activate Key first when evasion is required.
 
-G57 provides the positive counterpart: **Cloud → Buster Sword + Key + Sheltered by Ghosts** formed a successful non-recursive combat package, with Sheltered's lifelink sustaining the race.
+G57: Cloud → Buster Sword + Key + Sheltered by Ghosts formed a successful alternate combat package.
