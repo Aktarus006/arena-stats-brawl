@@ -1,6 +1,6 @@
 # Squall — Match Index
 
-**Record after 59 games: 24–35 (40.7%)**
+**Record after 60 games: 25–35 (41.7%)**
 
 Detailed reports live in `Matches/` as **one note per game**. This file stays intentionally compact so the vault remains readable at 100+ matches.
 
@@ -53,15 +53,13 @@ Detailed reports live in `Matches/` as **one note per game**. This file stays in
 
 Record: **3–7**.
 
-See individual notes in `Matches/031...040`.
-
 ## Games 041–050 — V2
 
 Record: **1–9**.
 
-See individual notes in `Matches/041...050` and [[Versions/V2 - Games 41-50]].
+See [[Versions/V2 - Games 41-50]].
 
-## Games 051–059 — V2.1
+## Games 051–060 — V2.1
 
 | # | Result | Opponent |
 |---:|:---:|---|
@@ -74,8 +72,9 @@ See individual notes in `Matches/041...050` and [[Versions/V2 - Games 41-50]].
 | 057 | W | [[Matches/057 - Oura the Imitator|Oura, the Imitator]] |
 | 058 | W | [[Matches/058 - Esika God of the Tree|Esika // The Prismatic Bridge]] |
 | 059 | W | [[Matches/059 - Tymna and Thrasios|Tymna + Thrasios]] |
+| 060 | W | [[Matches/060 - Captain America|Captain America]] |
 
-V2.1 current record: **5–4 (55.6%)**.
+V2.1 block record: **6–4 (60.0%)**.
 
 ## Checkpoints
 
@@ -83,8 +82,8 @@ V2.1 current record: **5–4 (55.6%)**.
 - Games 21–30: **4–6 (40%)**.
 - Games 31–40: **3–7 (30%)**.
 - Games 41–50 / V2: **1–9 (10%)**.
-- Games 51–59 / V2.1: **5–4 (55.6%)**.
-- Overall after G59: **24–35 (40.7%)**.
+- Games 51–60 / V2.1: **6–4 (60.0%)**.
+- Overall after G60: **25–35 (41.7%)**.
 
 ## Logging convention
 
