@@ -2,7 +2,7 @@
 
 ## Competitive Brawl test project
 
-**Current recorded result:** 23–35 (39.7%) after 58 games.
+**Current recorded result:** 24–35 (40.7%) after 59 games.
 
 **Current version:** V2.1 — Games 51+
 
@@ -24,8 +24,8 @@ This deck is being developed as an **Orzhov disruptive recursive toolbox/tempo d
 - Games 21–30: **4–6 (40%)**.
 - Games 31–40: **3–7 (30%)**.
 - V2, Games 41–50: **1–9 (10%)**.
-- V2.1, Games 51–58: **4–4 (50.0%)**.
-- Overall: **23–35 (39.7%)**.
+- V2.1, Games 51–59: **5–4 (55.6%)**.
+- Overall: **24–35 (40.7%)**.
 
 ## V2.1 direction
 
@@ -35,16 +35,17 @@ After the 50-game audit, the list moved away from lower-impact value/setup piece
 
 **Removed:** Braids, Arisen Nightmare, The Sackville-Bagginses, Kaya's Ghostform, Necropotence.
 
-Early evidence is encouraging for the concept even though the overall record remains negative: G52 was won without casting Squall, using **Plaguecrafter, Lurrus and Ral** as an independent recursive-value engine. G57 was won after **Valgavoth shut off graveyard recursion**, by pivoting to **Drannith + Cloud → Buster Sword + Key to the City + Sheltered by Ghosts lifelink**. G58 showed the tempo ceiling: **Gemstone Caverns → T1 Voice, T2 Greaves + Shadowspear, T3 Dark Ritual → Squall + Static Prison on a mana rock**, prompting concession.
+The early sample is now materially healthier than V2. G52 was won without casting Squall, using **Plaguecrafter, Lurrus and Ral** as an independent engine. G57 was won after **Valgavoth shut off graveyard recursion**, via **Drannith + Cloud → Buster Sword + Key + Sheltered lifelink**. G58 showed the tempo ceiling with **Gemstone Caverns → Voice → equipment → Dark Ritual/Squall + Static Prison**. G59 then demonstrated the full recursive-toolbox concept against heavy interaction: **Ral returned Ranger-Captain for a second tutor, then Accursed Marauder to remove a reanimated Tymna**, winning through Force of Negation, Toxic Deluge, Dismember and Reanimate.
 
 ## Strongest observed themes
 
-- **Creature toolbox:** Recruiter of the Guard can find specialized interaction such as Drannith Magistrate, Skyclave Apparition, Werefox Bodyguard, Kutzil's Flanker, Loran and Plaguecrafter-compatible support lines.
-- **Sacrifice interaction:** Accursed Marauder, Plaguecrafter and Sheoldred's Edict provide answers that can bypass protection/indestructible patterns depending on board composition.
+- **Creature toolbox:** Recruiter of the Guard and Ranger-Captain of Eos support specialized answers/protection; recursion makes their ETBs repeatable.
+- **Sacrifice interaction:** Accursed Marauder, Plaguecrafter and Sheoldred's Edict answer protected/indestructible-style threats without relying on targeted destruction.
 - **Commander disruption:** Drannith Magistrate and Disruptor Flute repeatedly buy important tempo.
-- **Recursive engines:** Squall, Lurrus, Reanimate and Ral allow useful ETB creatures to generate repeated value.
+- **Recursive engines:** Squall, Lurrus, Reanimate and especially Ral allow useful ETB creatures to generate repeated value.
 - **Alternative combat plan:** Cloud, Buster Sword, Key to the City and Sheltered by Ghosts can turn Squall into a standalone evasive/lifelink threat when recursion is unavailable.
-- **Fast-mana tempo:** Gemstone Caverns and Dark Ritual can produce exceptionally strong openings when the extra mana is converted into hatebears, equipment setup, Squall and simultaneous interaction rather than raw value alone.
+- **Fast-mana tempo:** Gemstone Caverns and Dark Ritual can produce exceptionally strong openings when the extra mana is converted into disruption plus pressure.
+- **Resilience to wipes:** G59 showed that Ral plus recursive creatures can rebuild efficiently after Toxic Deluge rather than simply starting over from zero.
 - **Squall + lands:** fetchlands and Strip Mine remain high-ceiling recursion targets.
 - **Board stabilization:** The Meathook Massacre remains a major anti-aggro comeback card; G56 cleared five creatures after Vampiric Tutor found it.
 
