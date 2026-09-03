@@ -35,7 +35,7 @@ It asks for the small set of fields that make future analysis useful: result, op
 - `tools/build_data.py`: imports historical notes and builds the dashboard data.
 - `tools/tracker.py`: normalization and aggregation rules.
 
-Older games are deliberately labelled `Legacy / unversioned` where the original match note lacks a confirmed deck version. The dashboard preserves that uncertainty rather than inventing a precise deck snapshot.
+The historical Games 1–40 are assigned to V1 at the user's direction; V2 begins at Game 41 and V2.1 at Game 51. New match notes always record their exact active version.
 
 ## Tests
 

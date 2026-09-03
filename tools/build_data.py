@@ -50,7 +50,7 @@ def parse_frontmatter(text: str) -> dict[str, Any]:
 def inferred_version(game_id: int, version: str) -> str:
     if version:
         return version
-    if 31 <= game_id <= 40:
+    if game_id <= 40:
         return "V1"
     if 41 <= game_id <= 50:
         return "V2"

@@ -44,7 +44,8 @@ class NormalizeGameTests(unittest.TestCase):
 
 
 class VersionInferenceTests(unittest.TestCase):
-    def test_uses_confirmed_v1_snapshot_for_games_31_to_40(self):
+    def test_uses_v1_for_all_pre_v2_games(self):
+        self.assertEqual(inferred_version(1, ""), "V1")
         self.assertEqual(inferred_version(31, ""), "V1")
         self.assertEqual(inferred_version(40, ""), "V1")
 
