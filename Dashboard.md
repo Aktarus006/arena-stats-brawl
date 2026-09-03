@@ -4,7 +4,7 @@
 
 | Deck | Games | W | L | Win rate | Status |
 |---|---:|---:|---:|---:|---|
-| [[Decks/Squall/Overview|Squall, SeeD Mercenary]] | 59 | 24 | 35 | 40.7% | Active testing — V2.1 |
+| [[Decks/Squall/Overview|Squall, SeeD Mercenary]] | 60 | 25 | 35 | 41.7% | Active testing — V2.1 |
 
 ## Global notes
 
@@ -13,10 +13,8 @@ This vault is intentionally multi-deck. Each deck keeps its own match log, card-
 ## Current experiments
 
 ### Squall — V2.1 (Games 51+)
-- Current V2.1 record: **5–4 (55.6%)** after Game 59.
+- First complete V2.1 block: **6–4 (60.0%)** over Games 51–60.
 - V2.1 added **Loran of the Third Path, Sheltered by Ghosts, Plaguecrafter and Ral Zarek, Guest Lecturer**.
 - The experiment is testing a more interactive recursive-toolbox identity rather than commander-dependent recursion.
-- Positive signals: G52 won without casting Squall through **Plaguecrafter + Ral + Lurrus**; G57 won despite a graveyard lock through the equipment/lifelink combat plan; G58 demonstrated explosive disruptive tempo.
-- G59 is the strongest recursive-toolbox datapoint so far: after Force of Negation and Toxic Deluge, **Ral returned Ranger-Captain for a second tutor and later Accursed Marauder to remove a reanimated Tymna**, while Sheoldred's Edict handled Tymna's first appearance.
-- Fast aggro and noncreature engines remain important pressure points.
-- Mana remains worth monitoring: G56 was heavily affected by opposing Strip Mine followed by failure to draw replacement lands.
+- Strongest signals: Ral recursion/toolbox loops (G52/G59), Sheltered lifelink through graveyard lock (G57), explosive tempo (G58), and Skrelv + Squall recursion (G60).
+- Overall Squall record after 60 games: **25–35 (41.7%)**.
