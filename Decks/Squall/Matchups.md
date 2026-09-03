@@ -20,8 +20,15 @@ Drannith Magistrate, Disruptor Flute and edict effects remain premium.
 - Narset G53: Sheoldred's Edict cleanly answered Narset when creature-targeted interaction was otherwise awkward.
 - Sephiroth G51: failure to prevent the commander flip allowed an emblem plus flying pressure to create an effectively irreversible advantage.
 - Oura G57: Drannith kept Oura off normal commander deployment long enough for Squall to win through an alternate combat plan.
+- Tymna/Thrasios G59: Thrasios died to Accursed Marauder; Tymna was answered by Sheoldred's Edict and then a Ral-recurred Accursed Marauder after opposing Reanimate.
 
-**Working plan:** identify commanders whose payoff becomes irreversible and interact before the trigger/transform point.
+**Working plan:** identify commanders whose payoff becomes irreversible and interact before the trigger/transform point. Against partner/value decks, diversified sacrifice interaction is especially useful because it remains effective through repeated commander deployments.
+
+## Partner midrange / control
+
+G59 vs **Tymna + Thrasios** is an important positive datapoint. The opponent presented Force of Negation, Toxic Deluge, Dismember and Reanimate, yet Squall rebuilt through **Ral → Ranger-Captain → Esper Sentinel** and later **Ral → Accursed Marauder** to remove Tymna again.
+
+**Working plan:** do not overextend into wipes unnecessarily; recursive ETB/tutor creatures plus Ral can convert the post-wipe graveyard into a highly specific recovery package.
 
 ## Graveyard / land recursion
 
@@ -54,9 +61,11 @@ Oura has now been seen twice.
 
 ## 5C value/control
 
-Notable opponents: Hei Bai variants, Phyrexian Omnath, Atraxa.
+Notable opponents: Hei Bai variants, Phyrexian Omnath, Atraxa, Esika/Bridge.
 
 These decks can overwhelm Squall if they establish layered engines. Early discard, Drannith, Flute and broad permanent interaction are important before their card-advantage layer becomes overwhelming.
+
+G58 vs Esika showed the positive tempo version of this plan: fast mana plus Voice and Static Prison attacked the setup before The Prismatic Bridge engine could begin.
 
 ## Explosive green ramp / landfall
 
@@ -67,6 +76,8 @@ Tifa, Mythweaver Poq, Lumra, Grist/Primeval Titan and Golos lines can move from 
 ## Board wipes
 
 Results remain mixed rather than structurally bad. Squall/Lurrus/Ral recursion can improve rebuilding, but opposing wipes that simultaneously rebuild the opponent's engine are particularly punishing.
+
+G59 is a strong positive example: after **Toxic Deluge**, Ral returned Ranger-Captain for another tutor and later Accursed Marauder for interaction, allowing the deck to rebuild with purpose rather than merely redeploying generic bodies.
 
 ## Sequencing / equipment
 
