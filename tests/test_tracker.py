@@ -6,7 +6,7 @@ from pathlib import Path
 PROJECT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT / "tools"))
 
-from build_data import inferred_version  # noqa: E402
+from build_data import inferred_version, current_decklist  # noqa: E402
 from tracker import normalize_game, summarize_games  # noqa: E402
 
 
@@ -48,6 +48,14 @@ class VersionInferenceTests(unittest.TestCase):
         self.assertEqual(inferred_version(1, ""), "V1")
         self.assertEqual(inferred_version(31, ""), "V1")
         self.assertEqual(inferred_version(40, ""), "V1")
+
+
+class DecklistImportTests(unittest.TestCase):
+    def test_imports_current_deck_at_one_hundred_cards(self):
+        decklist = current_decklist()
+        self.assertEqual(decklist["total_cards"], 100)
+        self.assertEqual(decklist["commander"], "Squall, SeeD Mercenary")
+        self.assertTrue(any(card["name"] == "Get Lost" for card in decklist["cards"]))
 
 
 class SummaryTests(unittest.TestCase):

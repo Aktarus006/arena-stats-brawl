@@ -8,12 +8,18 @@ The match notes remain the human-readable source. The dashboard is generated fro
 
 ```bash
 python3 tools/build_data.py
-python3 -m http.server 4173 --bind 127.0.0.1
+python3 tools/serve.py
 ```
 
 Then open: http://127.0.0.1:4173/site/
 
+The local server also provides the browser form endpoint, so the website can create a game note and structured record itself.
+
 ## Log the next game
+
+Preferred workflow: open the local dashboard and use **Encoder une game**. The form validates the input, creates the same Obsidian note and JSONL record, then refreshes the dashboard.
+
+The terminal logger remains available when a browser is inconvenient:
 
 ```bash
 python3 tools/log_game.py

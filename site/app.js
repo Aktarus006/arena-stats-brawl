@@ -1,52 +1,62 @@
 const $ = (selector) => document.querySelector(selector);
-const esc = (value) => String(value).replace(/[&<>"]/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[char]));
+const esc = (value) => String(value).replace(/[&<>"']/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[char]));
+let dashboard;
 
 function recordText(record) { return `${record.wins}–${record.losses}`; }
 function rate(value) { return `${value.toFixed(1)}%`; }
-
-function renderStats(target, values, empty = "No recorded flags") {
+function renderStats(target, values, empty = "Aucun flag enregistré") {
   const entries = Object.entries(values);
-  target.innerHTML = entries.length ? `<div class="stat-list">${entries.map(([key, value]) => `<div class="stat"><span>${esc(key.replaceAll("_", " "))}</span><span>${esc(value)}</span></div>`).join("")}</div>` : `<p class="muted">${empty}</p>`;
+  target.innerHTML = entries.length ? `<div class="stat-list">${entries.map(([key, value]) => `<div class="stat"><span>${esc(key.replaceAll("_", " "))}</span><b>${esc(value)}</b></div>`).join("")}</div>` : `<p>${empty}</p>`;
 }
-
 function renderGames(games) {
-  const target = $("#games");
-  target.innerHTML = games.slice().reverse().map((game) => `<tr>
-    <td>${String(game.id).padStart(3, "0")}</td>
-    <td><span class="result ${game.result}">${game.result === "win" ? "WIN" : "LOSS"}</span></td>
-    <td>${esc(game.opponent)}</td><td>${esc(game.archetype)}</td>
-    <td><span class="pill">${esc(game.deck_version)}</span></td>
-    <td class="${game.mana_issue === "none" ? "mana-ok" : "mana-flag"}">${esc(game.mana_issue.replaceAll("_", " "))}</td>
-  </tr>`).join("");
+  $("#games").innerHTML = games.slice().reverse().map((game) => `<tr><td>${String(game.id).padStart(3, "0")}</td><td><span class="result ${game.result}">${game.result === "win" ? "WIN" : "LOSS"}</span></td><td>${esc(game.opponent)}</td><td>${esc(game.archetype)}</td><td>${esc(game.deck_version)}</td><td>${esc(game.mana_issue.replaceAll("_", " "))}</td></tr>`).join("");
 }
-
-async function init() {
-  try {
-    const response = await fetch("../data/dashboard.json");
-    if (!response.ok) throw new Error(`Data request failed: ${response.status}`);
-    const { games, summary } = await response.json();
-    const overall = summary.overall;
-    $("#overall-record").textContent = recordText(overall);
-    $("#overall-rate").textContent = rate(overall.win_rate);
-    const current = summary.versions["V2.1"] || overall;
-    $("#experiment-record").textContent = `V2.1 — ${recordText(current)} (${rate(current.win_rate)})`;
-
-    $("#versions").innerHTML = Object.entries(summary.versions).map(([name, stat]) => `<div class="version-row"><span class="version-label">${esc(name)}</span><div class="bar"><span style="width:${stat.win_rate}%"></span></div><small>${recordText(stat)} · ${rate(stat.win_rate)}</small></div>`).join("");
-    const recent = summary.versions["V2.1"];
-    const insight = recent && recent.games >= 10
-      ? `V2.1 is ${recordText(recent)} across ${recent.games} games. Promising direction; keep the list stable until a larger block exists.`
-      : "V2.1 needs a complete 10-game block before any conclusion.";
-    const legacy = summary.versions["Legacy / unversioned"];
-    $("#insights").innerHTML = `<div class="insight">${esc(insight)}</div><div class="insight warn">${legacy ? `${legacy.games} legacy games have no exact deck version. They remain useful history, not a controlled comparison.` : "Version data is complete."}</div><div class="insight">The dashboard reports records and exposure. It does not claim that a card caused a win without sufficient structured evidence.</div>`;
-    renderStats($("#mana"), summary.mana_issues);
-    renderStats($("#quality"), {"version captured": `${summary.data_quality.version_known}/${games.length}`, "archetype captured": `${summary.data_quality.archetype_known}/${games.length}`, "rank captured": `${summary.data_quality.rank_known}/${games.length}`});
-    renderGames(games);
-    $("#filter").addEventListener("input", (event) => {
-      const needle = event.target.value.toLowerCase();
-      renderGames(games.filter((game) => `${game.opponent} ${game.archetype} ${game.deck_version}`.toLowerCase().includes(needle)));
-    });
-  } catch (error) {
-    document.querySelector(".shell").insertAdjacentHTML("afterbegin", `<div class="panel" role="alert"><strong>Dashboard data unavailable.</strong><p>Run <code>python3 tools/build_data.py</code>, then serve the repository root locally. ${esc(error.message)}</p></div>`);
-  }
+function renderDeck(cards) {
+  $("#deck-cards").innerHTML = cards.map((card) => `<div class="deck-card"><b>${card.quantity}×</b><span>${esc(card.name)}</span></div>`).join("");
 }
-init();
+function render(data) {
+  dashboard = data;
+  const { games, summary, deck } = data;
+  $("#overall-record").textContent = recordText(summary.overall);
+  $("#overall-rate").textContent = rate(summary.overall.win_rate);
+  const current = summary.versions.V2_1 || summary.versions["V2.1"] || summary.overall;
+  $("#experiment-record").textContent = `${recordText(current)} · ${rate(current.win_rate)}`;
+  $("#next-game").textContent = String(Math.max(...games.map((game) => game.id)) + 1).padStart(3, "0");
+  $("#versions").innerHTML = Object.entries(summary.versions).map(([name, stat]) => `<div class="version-row"><b>${esc(name)}</b><div class="bar"><i style="width:${stat.win_rate}%"></i></div><span>${recordText(stat)} / ${rate(stat.win_rate)}</span></div>`).join("");
+  const v21 = summary.versions["V2.1"];
+  $("#insights").innerHTML = `<p><b>V2.1 :</b> ${v21 ? `${recordText(v21)} sur ${v21.games} games.` : "en attente de données."}</p><p>Le site conserve les données structurées ; une carte n’est jamais déclarée décisive sans exposition suffisante.</p><p>La liste est stable jusqu’à G80, sauf signal manifeste.</p>`;
+  renderStats($("#mana"), summary.mana_issues);
+  renderStats($("#quality"), {"version": `${summary.data_quality.version_known}/${games.length}`, "archétype": `${summary.data_quality.archetype_known}/${games.length}`, "rank": `${summary.data_quality.rank_known}/${games.length}`});
+  $("#commander-name").textContent = deck.list.commander;
+  $("#deck-total").textContent = deck.list.total_cards;
+  renderGames(games);
+  renderDeck(deck.list.cards);
+  $("#filter").oninput = (event) => { const q = event.target.value.toLowerCase(); renderGames(games.filter((game) => `${game.opponent} ${game.archetype} ${game.deck_version}`.toLowerCase().includes(q))); };
+  $("#deck-filter").oninput = (event) => { const q = event.target.value.toLowerCase(); renderDeck(deck.list.cards.filter((card) => card.name.toLowerCase().includes(q))); };
+}
+async function refresh() {
+  const response = await fetch("../data/dashboard.json", { cache: "no-store" });
+  if (!response.ok) throw new Error(`Impossible de charger les données (${response.status}).`);
+  render(await response.json());
+}
+function setupForm() {
+  $("#game-form").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const status = $("#form-status");
+    const submit = form.querySelector("button[type=submit]");
+    const payload = Object.fromEntries(new FormData(form));
+    payload.mvp = payload.mvp.split(",").map((card) => card.trim()).filter(Boolean);
+    submit.disabled = true; status.textContent = "ENREGISTREMENT…";
+    try {
+      const response = await fetch("/api/games", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "Enregistrement impossible.");
+      status.textContent = `GAME ${String(data.game.id).padStart(3, "0")} ENREGISTRÉE. DASHBOARD RÉGÉNÉRÉ.`;
+      form.reset(); form.elements.rank.value = "Gold 3"; form.elements.mulligans.value = "0";
+      await refresh();
+    } catch (error) { status.textContent = `ERREUR : ${error.message}`; }
+    finally { submit.disabled = false; }
+  });
+}
+refresh().then(setupForm).catch((error) => { document.body.insertAdjacentHTML("afterbegin", `<p class="fatal">${esc(error.message)} Lancez <code>python3 tools/serve.py</code>.</p>`); });

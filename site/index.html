@@ -1,64 +1,87 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#101113">
-  <title>Arena Brawl Lab — Squall</title>
+  <meta name="theme-color" content="#000000">
+  <title>Squall Lab — Competitive Brawl</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="shell">
     <header class="masthead">
-      <div class="eyebrow"><span class="signal"></span> LOCAL DECK INTELLIGENCE</div>
-      <div class="title-row">
-        <div>
-          <p class="kicker">MTG ARENA · COMPETITIVE BRAWL</p>
-          <h1>Squall <em>Lab</em></h1>
-          <p class="subtitle">A live testing ledger for a disruptive recursive toolbox.</p>
-        </div>
-        <div class="commander-badge" aria-label="Commander color identity: Orzhov">WB</div>
-      </div>
+      <a class="brand" href="#dashboard">SQUALL<br><span>LAB</span></a>
+      <nav aria-label="Navigation principale">
+        <a href="#dashboard">Dashboard</a>
+        <a href="#new-game">Encoder une game</a>
+        <a href="#decklist">Liste actuelle</a>
+      </nav>
+      <div class="format-stamp">ARENA<br>COMPETITIVE<br>BRAWL</div>
     </header>
 
-    <section class="hero-grid" aria-label="Deck snapshot">
-      <article class="panel identity-panel">
-        <p class="section-label">CURRENT THESIS</p>
-        <h2>Disrupt. Connect. Recur.</h2>
-        <p>Remove the engine, establish a protected Squall connection, then replay premium permanents from the graveyard.</p>
-        <div class="tag-row"><span>V2.1</span><span>100 cards</span><span>38 land options</span></div>
-      </article>
-      <article class="panel score-panel">
-        <p class="section-label">ALL RECORDED GAMES</p>
-        <div class="score"><strong id="overall-record">—</strong><span id="overall-rate">—</span></div>
-        <p class="muted">Wins / losses · snapshot generated from match notes</p>
-      </article>
-      <article class="panel experiment-panel">
-        <p class="section-label">CURRENT EXPERIMENT</p>
-        <h2 id="experiment-record">V2.1 — —</h2>
-        <p>Keep the list stable through Game 80. Track engine pressure, safe connection windows, and each V2.1 card’s exposure.</p>
-      </article>
+    <section id="dashboard" class="hero">
+      <div class="hero-copy brutal-card primary-card">
+        <p class="eyebrow">DECK INTELLIGENCE / LOCAL-FIRST</p>
+        <h1>DISRUPT.<br>CONNECT.<br><i>RECUR.</i></h1>
+        <p>Un journal de test pour Squall, SeeD Mercenary : éliminer le moteur adverse, créer une fenêtre sûre, recycler les meilleurs permanents.</p>
+        <a class="button black-button" href="#new-game">ENCODER LA PROCHAINE GAME →</a>
+      </div>
+      <div class="hero-stats">
+        <article class="brutal-card score-card"><p>RECORD GLOBAL</p><strong id="overall-record">—</strong><span id="overall-rate">—</span></article>
+        <article class="brutal-card secondary-card"><p>VERSION ACTIVE</p><strong id="experiment-record">—</strong><span>V2.1 · RECURSIVE TOOLBOX</span></article>
+        <article class="brutal-card commander-card"><p>COMMANDER</p><strong>WB</strong><span>SQUALL, SEED MERCENARY</span></article>
+      </div>
     </section>
 
-    <section class="section-heading"><p>RESULTS, WITHOUT THE NOISE</p><span></span></section>
-    <section class="dashboard-grid">
-      <article class="panel timeline-panel"><div class="panel-head"><h2>Version trajectory</h2><p>Win rate per tracked deck version</p></div><div id="versions" class="versions"></div></article>
-      <article class="panel insight-panel"><div class="panel-head"><h2>Read the signal</h2><p>Data-aware conclusions</p></div><div id="insights" class="insights"></div></article>
+    <section class="section-heading"><h2>TRAJECTOIRE</h2><p>LES CHIFFRES AVANT LES IMPRESSIONS</p></section>
+    <section class="analysis-grid">
+      <article class="brutal-card"><h3>Versions</h3><div id="versions" class="versions"></div></article>
+      <article class="brutal-card"><h3>Ce que le signal dit</h3><div id="insights" class="insights"></div></article>
     </section>
 
-    <section class="section-heading"><p>MATCHUP LEDGER</p><span></span></section>
-    <section class="panel table-panel">
-      <div class="table-toolbar"><div><h2>Recorded opponents</h2><p>Filters never overwrite the underlying vault notes.</p></div><label>Filter <input id="filter" type="search" placeholder="Commander or archetype"></label></div>
-      <div class="table-wrap"><table><thead><tr><th>GAME</th><th>RESULT</th><th>OPPONENT</th><th>ARCHETYPE</th><th>VERSION</th><th>MANA</th></tr></thead><tbody id="games"></tbody></table></div>
+    <section id="new-game" class="section-heading anchor"><h2>ENCODER UNE GAME</h2><p>DIRECTEMENT DEPUIS LE SITE</p></section>
+    <section class="entry-layout">
+      <aside class="brutal-card secondary-card form-aside">
+        <p class="eyebrow">PROTOCOLE RAPIDE</p>
+        <h3>Une minute.<br>Des données utiles.</h3>
+        <ol><li>Résultat et adversaire.</li><li>Développement réel de la partie.</li><li>Une cause principale.</li><li>Les cartes décisives uniquement.</li></ol>
+        <p>À l’envoi, le site crée la note Obsidian, la ligne structurée et régénère le dashboard.</p>
+      </aside>
+      <form id="game-form" class="brutal-card game-form">
+        <div class="form-title"><h3>GAME <span id="next-game">061</span></h3><p>V2.1 sera attachée automatiquement.</p></div>
+        <div class="form-grid">
+          <label>Résultat <select name="result" required><option value="win">Victoire</option><option value="loss">Défaite</option></select></label>
+          <label>Rank <input name="rank" value="Gold 3" maxlength="60"></label>
+          <label class="wide">Commandant adverse <input name="opponent" required placeholder="Ex. Kinnan, Bonder Prodigy" maxlength="120"></label>
+          <label class="wide">Archétype <input name="archetype" required placeholder="Ex. Simic ramp / combo" maxlength="120"></label>
+          <label>Play / draw <select name="play_draw"><option value="unknown">Inconnu</option><option value="play">Play</option><option value="draw">Draw</option></select></label>
+          <label>Mulligans <input name="mulligans" type="number" min="0" max="7" value="0"></label>
+          <label>Nombre de tours <input name="turns" type="number" min="1" max="99" placeholder="—"></label>
+          <label>Problème de mana <select name="mana_issue"><option value="none">Aucun</option><option value="missed_land_drop">Land drop manqué</option><option value="color_screw_white">Color screw blanc</option><option value="color_screw_black">Color screw noir</option><option value="land_denial">Land denial</option><option value="flood">Flood</option><option value="unknown">Inconnu</option></select></label>
+          <label>Squall lancé ? <select name="squall_cast"><option value="unknown">Inconnu</option><option value="yes">Oui</option><option value="no">Non</option></select></label>
+          <label>Squall connecté ? <select name="squall_connected"><option value="unknown">Inconnu</option><option value="yes">Oui</option><option value="no">Non</option></select></label>
+          <label class="wide">Cause principale <select name="primary_cause"><option value="unknown">Inconnue / victoire</option><option value="engine">Moteur adverse</option><option value="ramp">Ramp / ressource</option><option value="aggro">Aggro / pression</option><option value="commander_snowball">Commandant snowball</option><option value="stack_interaction">Interaction de stack</option><option value="wipe">Board wipe</option><option value="mana">Mana</option><option value="life_total">Total de vie</option><option value="pilot_error">Erreur de pilotage</option></select></label>
+          <label class="wide">Cartes décisives <input name="mvp" placeholder="Get Lost, Skrelv, Defector Mite"></label>
+          <label class="wide">Moment charnière <textarea name="turning_point" rows="3" placeholder="Une phrase : le moment où la partie a basculé."></textarea></label>
+        </div>
+        <div class="form-actions"><button class="button primary-button" type="submit">ENREGISTRER LA GAME →</button><p id="form-status" role="status"></p></div>
+      </form>
     </section>
 
-    <section class="lower-grid">
-      <article class="panel compact-panel"><div class="panel-head"><h2>Mana flags</h2><p>Recorded issues, not inferred mana failure.</p></div><div id="mana"></div></article>
-      <article class="panel compact-panel"><div class="panel-head"><h2>Data coverage</h2><p>What the dashboard can honestly claim.</p></div><div id="quality"></div></article>
-      <article class="panel compact-panel protocol"><div class="panel-head"><h2>Next game protocol</h2><p>60 seconds, structured.</p></div><ol><li>Log play/draw and mulligans.</li><li>Mark Squall cast and connection.</li><li>Choose one primary loss cause.</li><li>Record only decisive cards.</li></ol><code>python3 tools/log_game.py</code></article>
+    <section id="decklist" class="section-heading anchor"><h2>LISTE ACTUELLE</h2><p>V2.1 · SYNCHRONISÉE DEPUIS OBSIDIAN</p></section>
+    <section class="deck-layout">
+      <article class="brutal-card deck-commander"><p class="eyebrow">COMMANDER</p><h3 id="commander-name">Squall, SeeD Mercenary</h3><p>Rough Divide double l’attaque solitaire. À chaque blessure sur un joueur, le cimetière redevient une boîte à outils de permanents MV ≤ 3.</p><div class="deck-total"><strong id="deck-total">100</strong><span>CARTES</span></div></article>
+      <article class="brutal-card deck-cards"><div class="deck-list-head"><h3>99 CARDS</h3><label>Rechercher <input id="deck-filter" type="search" placeholder="Nom de carte"></label></div><div id="deck-cards" class="card-grid"></div></article>
     </section>
 
-    <footer>ARENA BRAWL LAB <span>•</span> Local-first, generated from your Obsidian match notes <span>•</span> <a href="../README.md">Repository notes</a></footer>
+    <section class="section-heading"><h2>JOURNAL DES MATCHUPS</h2><p>60 GAMES ENREGISTRÉES</p></section>
+    <section class="brutal-card table-card">
+      <div class="table-toolbar"><div><h3>Opponents</h3><p>Filtre sans modifier les notes source.</p></div><label>Filtrer <input id="filter" type="search" placeholder="Commandant ou archétype"></label></div>
+      <div class="table-wrap"><table><thead><tr><th>GAME</th><th>RÉSULTAT</th><th>COMMANDANT</th><th>ARCHÉTYPE</th><th>VERSION</th><th>MANA</th></tr></thead><tbody id="games"></tbody></table></div>
+    </section>
+
+    <section class="mini-grid"><article class="brutal-card"><h3>Mana flags</h3><div id="mana"></div></article><article class="brutal-card"><h3>Qualité des données</h3><div id="quality"></div></article></section>
+    <footer>ARENA BRAWL LAB · NOIR / BLANC / JAUNE / VIOLET · LOCAL ONLY</footer>
   </main>
   <script src="app.js"></script>
 </body>

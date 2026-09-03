@@ -14,6 +14,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 from tracker import normalize_game, summarize_games  # noqa: E402
 
 MATCHES = ROOT / "Decks" / "Squall" / "Matches"
+DECKLIST = ROOT / "Decks" / "Squall" / "Decklist.md"
 DATA = ROOT / "data"
 
 
@@ -45,6 +46,25 @@ def parse_frontmatter(text: str) -> dict[str, Any]:
             current_list = key if value == "" else None
             data[key] = [] if value == "" else scalar(value)
     return data
+
+
+def current_decklist() -> dict[str, Any]:
+    """Read the active Obsidian decklist without duplicating it by hand."""
+    text = DECKLIST.read_text(encoding="utf-8")
+    commander_match = re.search(r"## Commander\n\n```text\n\d+ (.+?)\n```", text)
+    deck_match = re.search(r"## Deck\n\n```text\n(.*?)```", text, re.DOTALL)
+    if not commander_match or not deck_match:
+        raise ValueError("Current decklist is missing a Commander or Deck text block")
+    cards = []
+    for line in deck_match.group(1).splitlines():
+        match = re.fullmatch(r"(\d+) (.+)", line.strip())
+        if match:
+            cards.append({"quantity": int(match.group(1)), "name": match.group(2)})
+    return {
+        "commander": commander_match.group(1),
+        "cards": cards,
+        "total_cards": 1 + sum(card["quantity"] for card in cards),
+    }
 
 
 def inferred_version(game_id: int, version: str) -> str:
@@ -90,6 +110,7 @@ def build() -> dict[str, Any]:
             "format": "MTG Arena Competitive Brawl",
             "current_version": "V2.1",
             "source": "Decks/Squall/Decklist.md",
+            "list": current_decklist(),
         },
         "games": games,
         "summary": summarize_games(games),
