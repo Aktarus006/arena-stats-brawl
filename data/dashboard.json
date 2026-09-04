@@ -1149,14 +1149,59 @@
         "Squall, SeeD Mercenary"
       ],
       "source_note": "Decks/Squall/Matches/060 - Captain America.md"
+    },
+    {
+      "id": 61,
+      "played_at": "2026-09-04",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "result": "loss",
+      "opponent": "Katara, waterbending master",
+      "archetype": "Control, draw",
+      "rank": "Gold 3",
+      "play_draw": "draw",
+      "mulligans": 0,
+      "turns": 5,
+      "mana_issue": "land_denial",
+      "squall_cast": "no",
+      "squall_connected": "no",
+      "primary_cause": "stack_interaction",
+      "mvp": [
+        "Grand abolisher"
+      ],
+      "source_note": "Decks/Squall/Matches/061 - Katara, waterbending master.md"
+    },
+    {
+      "id": 62,
+      "played_at": "2026-09-04",
+      "deck": "Squall, SeeD Mercenary",
+      "deck_version": "V2.1",
+      "result": "win",
+      "opponent": "rhys the redeemed",
+      "archetype": "selesnya tokens",
+      "rank": "Gold 3",
+      "play_draw": "draw",
+      "mulligans": 0,
+      "turns": 7,
+      "mana_issue": "none",
+      "squall_cast": "yes",
+      "squall_connected": "yes",
+      "primary_cause": "commander_snowball",
+      "mvp": [
+        "werefox bodyguard",
+        "shadowspear",
+        "mother of rune",
+        "ral zarek hest lecturer"
+      ],
+      "source_note": "Decks/Squall/Matches/062 - rhys the redeemed.md"
     }
   ],
   "summary": {
     "overall": {
-      "games": 60,
-      "wins": 25,
-      "losses": 35,
-      "win_rate": 41.7
+      "games": 62,
+      "wins": 26,
+      "losses": 36,
+      "win_rate": 41.9
     },
     "versions": {
       "V1": {
@@ -1172,10 +1217,10 @@
         "win_rate": 10.0
       },
       "V2.1": {
-        "games": 10,
-        "wins": 6,
-        "losses": 4,
-        "win_rate": 60.0
+        "games": 12,
+        "wins": 7,
+        "losses": 5,
+        "win_rate": 58.3
       }
     },
     "archetypes": {
@@ -1202,6 +1247,12 @@
         "wins": 1,
         "losses": 0,
         "win_rate": 100.0
+      },
+      "Control, draw": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
       },
       "Dimir flash / faeries": {
         "games": 1,
@@ -1389,6 +1440,12 @@
         "losses": 1,
         "win_rate": 0.0
       },
+      "selesnya tokens": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
       "unknown": {
         "games": 1,
         "wins": 1,
@@ -1398,6 +1455,7 @@
     },
     "mana_issues": {
       "color_screw_white": 1,
+      "land_denial": 1,
       "missed_land_drop": 5,
       "unknown": 2
     },
@@ -1426,12 +1484,17 @@
       "Accursed Marauder": 1,
       "Skrelv, Defector Mite": 1,
       "Get Lost": 1,
-      "Chrome Mox": 1
+      "Chrome Mox": 1,
+      "Grand abolisher": 1,
+      "werefox bodyguard": 1,
+      "shadowspear": 1,
+      "mother of rune": 1,
+      "ral zarek hest lecturer": 1
     },
     "data_quality": {
-      "version_known": 60,
-      "archetype_known": 38,
-      "rank_known": 26
+      "version_known": 62,
+      "archetype_known": 40,
+      "rank_known": 28
     }
   }
 }
